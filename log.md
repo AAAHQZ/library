@@ -177,3 +177,12 @@
 ## 2026-05-06 ingest | AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化
 - 新增：wiki/sources/2026-05-06-AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化.md
 - 新增实体：Agent-Native.md, Claude-Managed-Agents.md, Harness.md, Sandbox.md, Memory-Store.md, Vault-Proxy.md, NeoCloud.md
+## 2026-05-06 ingest | 三大 Agent 平台独立收敛到同一个 Markdown 方案
+
+新增：
+- 素材摘要：[[sources/2026-05-06-三大Agent平台收敛到Markdown方案]]
+- 实体：[[Mem0]]、[[Letta-MemGPT]]、[[Karpathy-LLM-Wiki]]
+
+更新：
+- [[Agent-Memory框架]]（追加 benchmark 数据和分层架构分析）
+- index.md（统计数字、实体列表）

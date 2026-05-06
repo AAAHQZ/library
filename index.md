@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：library
-- 素材总数：43
-- Wiki 页面总数：43
+- 素材总数：44
+- Wiki 页面总数：48
 
 ---
 
@@ -26,6 +26,7 @@
 - [[AI行业观察]] · [[AI辅助写作]] · [[Agent-Memory框架]]
 - [[知识管理]] · [[研发团队管理]] · [[身份权限管理]]
 - [[分级处置]] · [[混合流水线]]
+- [[Mem0]] · [[Letta-MemGPT]] · [[Karpathy-LLM-Wiki]] · [[Agent记忆分层]]
 
 ---
 
@@ -43,6 +44,7 @@
 
 > 每个消化过的素材都有一篇摘要
 
+- 2026-05-06 [[sources/2026-05-06-三大Agent平台收敛到Markdown方案|三大 Agent 平台独立收敛到同一个 Markdown 方案]] - Agent 记忆、Markdown、Karpathy、Mem0、Letta、LOCOMO
 - 2026-05-06 [[AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化|sources/2026-05-06-AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化]] - AI Agent、Cloud Native、Claude、Agent Native
 - 2026-05-06 [[Agent驱动的CICD流程变革从自动化执行到智能自治|sources/2026-05-06-Agent驱动的CICD流程变革从自动化执行到智能自治]] - AI Agent、CI/CD、DevOps、智能化
 - 2026-04 [[OpenClaw身份权限管理|sources/2026-04-OpenClaw身份权限管理]] - AI Agent安全、IAM、身份权限、零信任
