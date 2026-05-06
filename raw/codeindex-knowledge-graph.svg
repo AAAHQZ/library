@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 800 860" font-family="system-ui,-apple-system,sans-serif">
+<defs>
+  <marker id="m-co" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#60A5FA" opacity="0.7"/></marker>
+  <marker id="m-ap" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#34D399" opacity="0.7"/></marker>
+  <marker id="m-in" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#A78BFA" opacity="0.7"/></marker>
+  <marker id="m-da" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#FBBF24" opacity="0.7"/></marker>
+  <marker id="m-ed" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#F87171" opacity="0.7"/></marker>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="cg"><stop offset="0%" stop-color="#1F2937"/><stop offset="100%" stop-color="#111827"/></radialGradient>
+</defs>
+<rect width="800" height="860" fill="#0D1117"/>
+<circle cx="400" cy="430" r="212" fill="none" stroke="#161B22" stroke-width="1" stroke-dasharray="4 6" opacity="1.0"/>
+<text x="400" y="210" text-anchor="middle" fill="#9CA3AF" font-size="9" letter-spacing="3" opacity="0.7">CORE CAPABILITIES</text>
+<circle cx="400" cy="430" r="285" fill="none" stroke="#161B22" stroke-width="1" stroke-dasharray="4 6" opacity="0.8"/>
+<text x="400" y="137" text-anchor="middle" fill="#9CA3AF" font-size="9" letter-spacing="3" opacity="0.6">APPLICATIONS</text>
+<circle cx="400" cy="430" r="382" fill="none" stroke="#161B22" stroke-width="1" stroke-dasharray="4 6" opacity="0.6"/>
+<text x="400" y="40" text-anchor="middle" fill="#9CA3AF" font-size="9" letter-spacing="3" opacity="0.5">INFRASTRUCTURE</text>
+<circle cx="400" cy="430" r="70" fill="url(#cg)" stroke="#F59E0B" stroke-width="2.5" filter="url(#glow)"/>
+<text x="400" y="418" text-anchor="middle" fill="#F59E0B" font-size="18" font-weight="800">Codeindex</text>
+<text x="400" y="438" text-anchor="middle" fill="#9CA3AF" font-size="10">代码语义索引引擎</text>
+<text x="400" y="453" text-anchor="middle" fill="#9CA3AF" font-size="9" opacity="0.6">淘天 · 跨端技术团队</text>
+<rect x="344" y="252" width="112" height="80" rx="10" fill="#1E3A5F" stroke="#60A5FA" stroke-width="1.5"/>
+<text x="400" y="282.0" text-anchor="middle" fill="#F9FAFB" font-size="13" font-weight="600">语义化检索</text>
+<text x="400" y="300.0" text-anchor="middle" fill="#60A5FA" font-size="10">片段召回</text>
+<rect x="482" y="390" width="112" height="80" rx="10" fill="#1E3A5F" stroke="#60A5FA" stroke-width="1.5"/>
+<text x="538" y="420.0" text-anchor="middle" fill="#F9FAFB" font-size="13" font-weight="600">语义化摘要</text>
+<text x="538" y="438.0" text-anchor="middle" fill="#60A5FA" font-size="10">片段/文件摘要</text>
+<rect x="344" y="528" width="112" height="80" rx="10" fill="#1E3A5F" stroke="#60A5FA" stroke-width="1.5"/>
+<text x="400" y="558.0" text-anchor="middle" fill="#F9FAFB" font-size="13" font-weight="600">函数依赖图</text>
+<text x="400" y="576.0" text-anchor="middle" fill="#60A5FA" font-size="10">上下游追踪</text>
+<rect x="206" y="390" width="112" height="80" rx="10" fill="#1E3A5F" stroke="#60A5FA" stroke-width="1.5"/>
+<text x="262" y="420.0" text-anchor="middle" fill="#F9FAFB" font-size="13" font-weight="600">增量索引</text>
+<text x="262" y="438.0" text-anchor="middle" fill="#60A5FA" font-size="10">哈希增量</text>
+<text x="522" y="544" text-anchor="middle" fill="#FBBF24" font-size="8.5" font-weight="600" letter-spacing="1">GRAPH MODEL</text>
+<rect x="481" y="558" width="79" height="31" rx="5" fill="#451A03" stroke="#FBBF24" stroke-width="1"/>
+<text x="520" y="569" text-anchor="middle" fill="#F9FAFB" font-size="10" font-weight="500">Files</text>
+<text x="520" y="580" text-anchor="middle" fill="#9CA3AF" font-size="7.5">节点</text>
+<rect x="563" y="558" width="79" height="31" rx="5" fill="#451A03" stroke="#FBBF24" stroke-width="1"/>
+<text x="602" y="569" text-anchor="middle" fill="#F9FAFB" font-size="10" font-weight="500">Functions</text>
+<text x="602" y="580" text-anchor="middle" fill="#9CA3AF" font-size="7.5">节点</text>
+<rect x="481" y="594" width="79" height="31" rx="5" fill="#7F1D1D" stroke="#F87171" stroke-width="1"/>
+<text x="520" y="605" text-anchor="middle" fill="#F9FAFB" font-size="10" font-weight="500">FunctionCalls</text>
+<text x="520" y="616" text-anchor="middle" fill="#9CA3AF" font-size="7.5">关系</text>
+<rect x="563" y="594" width="79" height="31" rx="5" fill="#7F1D1D" stroke="#F87171" stroke-width="1"/>
+<text x="602" y="605" text-anchor="middle" fill="#F9FAFB" font-size="10" font-weight="500">Contains</text>
+<text x="602" y="616" text-anchor="middle" fill="#9CA3AF" font-size="7.5">关系</text>
+<rect x="482" y="138" width="120" height="90" rx="10" fill="#064E3B" stroke="#34D399" stroke-width="1.5"/>
+<text x="542" y="171.182759921435" text-anchor="middle" fill="#F9FAFB" font-size="13" font-weight="600">CodeWiz</text>
+<text x="542" y="189.182759921435" text-anchor="middle" fill="#34D399" font-size="10">代码检索 / Chat助手</text>
+<rect x="482" y="632" width="120" height="90" rx="10" fill="#064E3B" stroke="#34D399" stroke-width="1.5"/>
+<text x="542" y="664.817240078565" text-anchor="middle" fill="#F9FAFB" font-size="13" font-weight="600">AI CR Agent</text>
+<text x="542" y="682.817240078565" text-anchor="middle" fill="#34D399" font-size="10">智能审查 / 变更影响</text>
+<rect x="55" y="385" width="120" height="90" rx="10" fill="#064E3B" stroke="#34D399" stroke-width="1.5"/>
+<text x="115" y="418.00000000000006" text-anchor="middle" fill="#F9FAFB" font-size="13" font-weight="600">CodeWiki</text>
+<text x="115" y="436.00000000000006" text-anchor="middle" fill="#34D399" font-size="10">自动生成 / Wiki文档</text>
+<rect x="539" y="69" width="104" height="60" rx="8" fill="#1E1B4B" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="591" y="93.17829575434445" text-anchor="middle" fill="#F9FAFB" font-size="11" font-weight="600">Tree-sitter</text>
+<text x="591" y="109.17829575434445" text-anchor="middle" fill="#A78BFA" font-size="9">代码解析</text>
+<rect x="722" y="479" width="104" height="60" rx="8" fill="#1E1B4B" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="774" y="503.4222658923841" text-anchor="middle" fill="#F9FAFB" font-size="11" font-weight="600">SDK</text>
+<text x="774" y="519.4222658923841" text-anchor="middle" fill="#A78BFA" font-size="9">客户端库</text>
+<rect x="388" y="780" width="104" height="60" rx="8" fill="#1E1B4B" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="440" y="803.9073640306804" text-anchor="middle" fill="#F9FAFB" font-size="11" font-weight="600">OpenAPI</text>
+<text x="440" y="819.9073640306804" text-anchor="middle" fill="#A78BFA" font-size="9">服务端接口</text>
+<rect x="-1" y="555" width="104" height="60" rx="8" fill="#1E1B4B" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="51" y="579.3733976549557" text-anchor="middle" fill="#F9FAFB" font-size="11" font-weight="600">Postgres Age</text>
+<text x="51" y="595.3733976549557" text-anchor="middle" fill="#A78BFA" font-size="9">图数据库</text>
+<rect x="92" y="116" width="104" height="60" rx="8" fill="#1E1B4B" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="144" y="140.11867666763538" text-anchor="middle" fill="#F9FAFB" font-size="11" font-weight="600">KuzuDB</text>
+<text x="144" y="156.11867666763538" text-anchor="middle" fill="#A78BFA" font-size="9">嵌入式图DB</text>
+<line x1="439.4" y1="252.2" x2="554.4" y2="136.1" stroke="#60A5FA" stroke-width="1.2" opacity="0.45" marker-end="url(#m-co)"/>
+<line x1="448.4" y1="320.2" x2="728.7" y2="483.3" stroke="#60A5FA" stroke-width="1.2" opacity="0.45" marker-end="url(#m-co)"/>
+<line x1="546.9" y1="374.7" x2="582.8" y2="150.5" stroke="#60A5FA" stroke-width="1.2" opacity="0.45" marker-end="url(#m-co)"/>
+<line x1="409.1" y1="623.3" x2="431.5" y2="758.6" stroke="#60A5FA" stroke-width="1.2" opacity="0.45" marker-end="url(#m-co)"/>
+<line x1="344.1" y1="570.8" x2="103.0" y2="582.8" stroke="#60A5FA" stroke-width="1.2" opacity="0.45" marker-end="url(#m-co)"/>
+<line x1="371.0" y1="520.1" x2="171.3" y2="190.6" stroke="#60A5FA" stroke-width="1.2" opacity="0.45" marker-end="url(#m-co)"/>
+<line x1="317.3" y1="438.6" x2="722.3" y2="501.4" stroke="#60A5FA" stroke-width="1.2" opacity="0.45" marker-end="url(#m-co)"/>
+<line x1="285.8" y1="480.7" x2="417.9" y2="762.8" stroke="#60A5FA" stroke-width="1.2" opacity="0.45" marker-end="url(#m-co)"/>
+<line x1="444.5" y1="258.0" x2="494.8" y2="219.6" stroke="#34D399" stroke-width="1.2" opacity="0.5" marker-end="url(#m-ap)"/>
+<line x1="444.5" y1="602.0" x2="494.8" y2="640.4" stroke="#34D399" stroke-width="1.2" opacity="0.5" marker-end="url(#m-ap)"/>
+<line x1="482.0" y1="430.0" x2="175.0" y2="430.0" stroke="#34D399" stroke-width="1.2" opacity="0.5" marker-end="url(#m-ap)"/>
+<path d="M 455.9 571.7 L 481.1 573.3" stroke="#FBBF24" stroke-width="1.2" opacity="0.65" fill="none" marker-end="url(#m-da)"/>
+<text x="24" y="32" fill="#F9FAFB" font-size="15" font-weight="700">Codeindex 知识图谱</text>
+<text x="24" y="50" fill="#9CA3AF" font-size="10">代码语义索引 / 检索 / 依赖图生成</text>
+<rect x="24" y="58" width="72" height="2.5" rx="1.25" fill="#F59E0B"/>
+<rect x="668" y="28" width="11" height="11" rx="2.5" fill="#60A5FA" opacity="0.85"/>
+<text x="684" y="37" fill="#9CA3AF" font-size="10">核心能力</text>
+<rect x="668" y="50" width="11" height="11" rx="2.5" fill="#34D399" opacity="0.85"/>
+<text x="684" y="59" fill="#9CA3AF" font-size="10">应用场景</text>
+<rect x="668" y="72" width="11" height="11" rx="2.5" fill="#A78BFA" opacity="0.85"/>
+<text x="684" y="81" fill="#9CA3AF" font-size="10">基础设施</text>
+<rect x="668" y="94" width="11" height="11" rx="2.5" fill="#FBBF24" opacity="0.85"/>
+<text x="684" y="103" fill="#9CA3AF" font-size="10">图数据模型</text>
+</svg>
