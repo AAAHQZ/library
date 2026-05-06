@@ -97,8 +97,7 @@ Letta 已在生产环境中部署超过 100 万个有状态 Agent。<!-- confide
 
 - 与 [[Agent-Memory框架]] 高度相关——本文提供了完整的 benchmark 数据和分层架构分析
 - 与 [[Hermes-Agent]] 相关——Hermes 的记忆系统也是同类方案
-Karpathy 的 LLM Wiki 方法论是 [[AI-Agent]] 知识库的核心构建方式。详见 [[Karpathy-LLM-Wiki]]。
-- [[MemOS]] 和 [[Memory-Store]] 是这篇文章提到的 Markdown 记忆方案的实例
+Karpathy 的 LLM Wiki 方法论是知识库构建方式之一。详见 [[Karpathy-LLM-Wiki]]。
 
 ## 原文精彩摘录
 
