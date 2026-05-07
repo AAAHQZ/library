@@ -32,3 +32,4 @@ MCP Server 可以覆盖：
 ## 相关素材
 
 - [[2026-05-06-Agent驱动的CICD流程变革从自动化执行到智能自治|sources/2026-05-06-Agent驱动的CICD流程变革从自动化执行到智能自治]]
+- [[2026-05-06-AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化|sources/2026-05-06-AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化]]

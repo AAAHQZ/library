@@ -54,10 +54,10 @@ Prompt Engineering  →  Context Engineering  →  Harness Engineering
 | 第一幕：生成 | 2022.11—2023 | 能生成不能行动 | Prompt Engineering |
 | 第二幕：连接 | 2023—2024 | 能说不能做 | Function Calling / Plugins / LangChain |
 | 第三幕：推理 | 2024 | 单步质量 | 推理模型（o1/o3）+ [[MCP]] + Context Engineering |
-| 第四幕：行动 | 2025 | 能跑但易崩 | Agent 循环（Claude Code / Codex） |
+| 第四幕：行动 | 2025 | 能跑但易崩 | Agent 循环（Claude Code / Cursor / Codex） |
 | 第五幕：治理 | 2026— | 能跑不等于能治 | **Harness Engineering** |
 
-关键转折：2026 年 2 月 Mitchell Hashimoto 明确写出"Engineer the Harness"，同年 2 月 OpenAI 发布《Harness Engineering: Leveraging Codex in an Agent-First World》，4 月 Thoughtworks/Fowler 体系将其系统化为 guides+sensors 的 2×2 控制矩阵。
+关键转折：2026 年 2 月 Mitchell Hashimoto 明确写出"Engineer the Harness"，同年 2 月 OpenAI 发布《Harness Engineering: Leveraging Codex in an Agent-First World》，4 月 Thoughtworks/Fowler 体系将其系统化为 guides+sensors 的 2×2 控制矩阵。得物技术在 2026 年 5 月的全栈开发实践中进一步用 [[Cursor]] 的 Codebase Indexing 和多 Tab 并行机制，验证了 Harness 思维在真实项目中的提效——原本 2+4 人日的需求压缩至 3 人日，提效 50% 以上。
 
 ## 六大工程构件
 
@@ -186,6 +186,7 @@ Prompt Engineering  →  Context Engineering  →  Harness Engineering
 - [[Context-Engineering]] — 每步上下文的工程实践（Harness Engineering 子集）
 - [[Agent-Native]] — Agent 原生化趋势
 - [[Agentic-CI-CD]] — Agent 在 CI/CD 场景的治理实践
+- [[Cursor]] — AI 原生 IDE，Harness Engineering 的重要工具载体
 
 ## 参考文献
 
@@ -193,3 +194,5 @@ Prompt Engineering  →  Context Engineering  →  Harness Engineering
 - [Harness Engineering: Leveraging Codex in an Agent-First World](https://openai.com/index/harness-engineering)（OpenAI, 2026.02）
 - [Harness Engineering - first thoughts](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering-memo.html)（Thoughtworks/Fowler, 2026.04）
 - [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+- [基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践](https://mp.weixin.qq.com/s/ygQGSH5c7GHYDvkqWoQTXQ)（得物技术, 2026.05）
+- [[多仓管理]]

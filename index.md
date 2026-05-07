@@ -1,20 +1,20 @@
 # 知识库索引
 
-> 最后更新：2026-05-06
+> 最后更新：2026-05-07
 
 ---
 
 ## 概览
 
 - 主题：library
-- 素材总数：44
-- Wiki 页面总数：48
+- 素材总数：46
+- Wiki 页面总数：96
 
 ---
 
 ## 实体页
 
-> 人物、组织、概念、工具等（共 37 个）
+> 人物、组织、概念、工具等（共 47 个）
 
 - [[AI-Agent]] · [[Hermes-Agent]] · [[Harness]] · [[Harness-Engineering]]
 - [[Session]] · [[Sandbox]] · [[Skills]] · [[Vault-Proxy]]
@@ -27,6 +27,8 @@
 - [[知识管理]] · [[研发团队管理]] · [[身份权限管理]]
 - [[分级处置]] · [[混合流水线]]
 - [[Mem0]] · [[Letta-MemGPT]] · [[Karpathy-LLM-Wiki]] · [[Agent记忆分层]]
+- [[Codebase-Indexing]] · [[多仓管理]]
+- [[AI流量分析]] · [[Pigsty]] · [[Cloudflare]]
 
 ---
 
@@ -44,14 +46,15 @@
 
 > 每个消化过的素材都有一篇摘要
 
+- 2026-05-07 [[sources/2026-05-07-三个月翻100倍Agent时代的流量画像|三个月翻 100 倍：Agent 时代的流量画像]] - AI Agent、流量分析、开源、内容分发
 - 2026-05-06 [[sources/2026-05-06-三大Agent平台收敛到Markdown方案|三大 Agent 平台独立收敛到同一个 Markdown 方案]] - Agent 记忆、Markdown、Karpathy、Mem0、Letta、LOCOMO
-- 2026-05-06 [[AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化|sources/2026-05-06-AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化]] - AI Agent、Cloud Native、Claude、Agent Native
-- 2026-05-06 [[Agent驱动的CICD流程变革从自动化执行到智能自治|sources/2026-05-06-Agent驱动的CICD流程变革从自动化执行到智能自治]] - AI Agent、CI/CD、DevOps、智能化
+- 2026-05-06 [[sources/2026-05-06-AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化|Agent Native 云服务的雏形：从 Claude Managed Agents 看云计算的第三次原生化]] - AI Agent、Cloud Native、Claude、Agent Native
+- 2026-05-06 [[sources/2026-05-06-Agent驱动的CICD流程变革从自动化执行到智能自治|Agent 驱动的 CI/CD 流程变革：从自动化执行到智能自治]] - AI Agent、CI/CD、DevOps、智能化
 - 2026-04 [[OpenClaw身份权限管理|sources/2026-04-OpenClaw身份权限管理]] - AI Agent安全、IAM、身份权限、零信任
 - 2026-04 [[Mintlify虚拟文件系统ChromaFS|sources/2026-04-Mintlify虚拟文件系统ChromaFS]] - AI、RAG、虚拟文件系统、向量数据库
 - 2026-04 [[S3文件存储桶加速传统存储厂商死亡|sources/2026-04-15-S3文件存储桶加速传统存储厂商死亡]] - 存储、S3、对象存储、云原生、AI基础设施
 - 2026-04-29 [[淘天营销中后台生码工作流最佳实践|sources/2026-04-29-淘天营销中后台生码工作流最佳实践]] - AI生码、研发效能、工作流
-- 2026-04-23 [[sources/2026-04-23-Claude-Code质量退化|Claude Code质量退化事件]] - Claude Code、Anthropic、harness、system prompt、postmortem
+- 2026-04-23 [[Claude Code质量退化|sources/2026-04-23-Claude-Code质量退化]] - Claude Code、Anthropic、harness、system prompt、postmortem
 - 2026-04-29 [[当AI把开发速度干到10倍但为什么交付还是慢得不行|sources/2026-04-29-当AI把开发速度干到10倍但为什么交付还是慢得不行]] - AI提效、组织管理、认知债、判断力、Gate、Harness
 - 2026-04-22 [[AI-Agent框架选型与工程实践|sources/2026-04-22-AI-Agent框架选型与工程实践]] - AI Agent框架理论、主流框架对比、工程实践
 - 2026-04-22 [[对抗软件复杂度的战争|sources/2026-04-22-对抗软件复杂度的战争]] - 软件复杂度管理、研发效能、架构设计
@@ -88,6 +91,7 @@
 - 2026-04-15 [[深度解析HarnessEngineering|sources/2026-04-15-深度解析HarnessEngineering]] - Harness、Anthropic、Agent工程
 - 2026-04-15 [[为什么你的AI优先战略可能大错特错|sources/2026-04-15-为什么你的AI优先战略可能大错特错]] - AI战略、组织管理、技术采用曲线
 - 2026-04-15 [[Agent隔离安全|sources/2026-04-15-Agent隔离安全]] - Agent安全、沙箱、Landlock
+- 2026-05-06 [[sources/2026-05-06-基于Harness+SDD+多仓管理模式的AI全栈开发实践|基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践]] - Harness Engineering、SDD、多Agent、全栈开发、AI编程
 
 ---
 
