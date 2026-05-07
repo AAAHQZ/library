@@ -196,3 +196,5 @@ Prompt Engineering  →  Context Engineering  →  Harness Engineering
 - [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 - [基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践](https://mp.weixin.qq.com/s/ygQGSH5c7GHYDvkqWoQTXQ)（得物技术, 2026.05）
 - [[多仓管理]]
+- [十年老技术开发的 AI Agent 探索之路](https://mp.weixin.qq.com/s/r__2l_u6oXwzWHyD3wu_ZQ)（zhiyuanfu, 2026.05）— Harness Engineering 完整实践案例：SDD + 调度层 + 并发 + 失败切换 + 自举
+- [[Spec驱动开发]] — SDD 方法论

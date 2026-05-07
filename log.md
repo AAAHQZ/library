@@ -186,6 +186,7 @@
 更新：
 - [[Agent-Memory框架]]（追加 benchmark 数据和分层架构分析）
 - index.md（统计数字、实体列表）
+- log.md
 
 ## 2026-05-07 ingest | 三个月翻 100 倍：Agent 时代的流量画像
 
@@ -195,4 +196,16 @@
 
 更新：
 - [[AI-Agent]]（追加「Agent 作为内容消费者」视角）
+- index.md（统计数字、实体列表）
+
+## 2026-05-07 ingest | 十年老技术开发的 AI Agent 探索之路
+
+新增：
+- 素材摘要：[[sources/2026-05-07-十年老技术开发的AIAgent探索之路]]
+- 实体：[[Task-Driven]]、[[Goal-Driven]]、[[24h-打工人]]
+
+更新：
+- [[Spec驱动开发]]（追加实践版 SDD：三级文档结构 spec/plan/tasks）
+- [[Harness-Engineering]]（追加本文为完整实践案例引用）
+- [[AI-Agent]]（追加人的并发瓶颈、决策层级、脚手架>模型等工程原则）
 - index.md（统计数字、实体列表）

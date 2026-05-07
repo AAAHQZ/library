@@ -14,6 +14,11 @@
       "hash": "sha256:b6f4ec66b201c5112ae89b27ecd5563d2ff0aeb3bdf4263ed9b5c5cbd1fbbdca",
       "ingested_at": "2026-05-07T01:38:51Z",
       "source_page": "wiki/sources/2026-05-07-三个月翻100倍Agent时代的流量画像.md"
+    },
+    "raw/wechat/2026-05-07-十年老技术开发的_AI_Agent_探索之路.md": {
+      "hash": "sha256:70471636a391f58d08488d36802efe8a599d2e8756efd1031bf8307bbe43b2fc",
+      "ingested_at": "2026-05-07T09:49:10Z",
+      "source_page": "wiki/sources/2026-05-07-十年老技术开发的AIAgent探索之路.md"
     }
   }
 }

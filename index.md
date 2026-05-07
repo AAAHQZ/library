@@ -7,14 +7,14 @@
 ## 概览
 
 - 主题：library
-- 素材总数：46
-- Wiki 页面总数：96
+- 素材总数：47
+- Wiki 页面总数：101
 
 ---
 
 ## 实体页
 
-> 人物、组织、概念、工具等（共 47 个）
+> 人物、组织、概念、工具等（共 51 个）
 
 - [[AI-Agent]] · [[Hermes-Agent]] · [[Harness]] · [[Harness-Engineering]]
 - [[Session]] · [[Sandbox]] · [[Skills]] · [[Vault-Proxy]]
@@ -29,6 +29,7 @@
 - [[Mem0]] · [[Letta-MemGPT]] · [[Karpathy-LLM-Wiki]] · [[Agent记忆分层]]
 - [[Codebase-Indexing]] · [[多仓管理]]
 - [[AI流量分析]] · [[Pigsty]] · [[Cloudflare]]
+- [[Task-Driven]] · [[Goal-Driven]] · [[24h-打工人]]
 
 ---
 
@@ -46,6 +47,7 @@
 
 > 每个消化过的素材都有一篇摘要
 
+- 2026-05-07 [[sources/2026-05-07-十年老技术开发的AIAgent探索之路|十年老技术开发的 AI Agent 探索之路]] - AI Agent、SDD、Harness Engineering、实践分享、Goal-Driven
 - 2026-05-07 [[sources/2026-05-07-三个月翻100倍Agent时代的流量画像|三个月翻 100 倍：Agent 时代的流量画像]] - AI Agent、流量分析、开源、内容分发
 - 2026-05-06 [[sources/2026-05-06-三大Agent平台收敛到Markdown方案|三大 Agent 平台独立收敛到同一个 Markdown 方案]] - Agent 记忆、Markdown、Karpathy、Mem0、Letta、LOCOMO
 - 2026-05-06 [[sources/2026-05-06-AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化|Agent Native 云服务的雏形：从 Claude Managed Agents 看云计算的第三次原生化]] - AI Agent、Cloud Native、Claude、Agent Native
