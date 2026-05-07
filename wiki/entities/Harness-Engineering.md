@@ -7,7 +7,7 @@ tags:
   - 架构
 type: entity
 confidence: EXTRACTED
-source: 深度解析HarnessEngineering
+source: 深度解析HarnessEngineering, 告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践
 ---
 
 # Harness Engineering
@@ -58,6 +58,18 @@ Prompt Engineering  →  Context Engineering  →  Harness Engineering
 | 第五幕：治理 | 2026— | 能跑不等于能治 | **Harness Engineering** |
 
 关键转折：2026 年 2 月 Mitchell Hashimoto 明确写出"Engineer the Harness"，同年 2 月 OpenAI 发布《Harness Engineering: Leveraging Codex in an Agent-First World》，4 月 Thoughtworks/Fowler 体系将其系统化为 guides+sensors 的 2×2 控制矩阵。得物技术在 2026 年 5 月的全栈开发实践中进一步用 [[Cursor]] 的 Codebase Indexing 和多 Tab 并行机制，验证了 Harness 思维在真实项目中的提效——原本 2+4 人日的需求压缩至 3 人日，提效 50% 以上。
+
+### Qoder 实践版：Harness Engineering 的四大支柱
+
+高德大模型应用平台王树新在 [[Qoder]] 的落地实践中，将 Harness Engineering 系统化为四大支柱：
+
+1. **上下文工程**：不再是简单的 RAG，而是结构化信息投喂。维护"单一事实来源"（single source of truth），让 Agent 知道项目的目录结构、当前执行计划以及哪些文档最新。
+
+2. **架构约束**：通过物理手段强制 AI 遵守规则（如 UI 代码禁止直接访问数据库层），违反架构分层的代码无法通过语法检查，在提交前即被拦截。
+
+3. **反馈回路与熵管理**：自动化的测试沙箱——Agent 写完代码 → 自动运行测试 → 失败 → 读取错误日志 → 自我修正并重试。将人类修复错误的经验固化为新规则，确保 AI 不犯同样的错误两次。
+
+4. **人类监督**：人类从"写代码的人"变成"审核员"和"环境设计师"，职责是定义复杂的业务边界、处理 5% AI 无法判断的模糊逻辑、优化 Harness 本身的规则。
 
 ## 六大工程构件
 
@@ -187,6 +199,8 @@ Prompt Engineering  →  Context Engineering  →  Harness Engineering
 - [[Agent-Native]] — Agent 原生化趋势
 - [[Agentic-CI-CD]] — Agent 在 CI/CD 场景的治理实践
 - [[Cursor]] — AI 原生 IDE，Harness Engineering 的重要工具载体
+- [[Qoder]] — 阿里巴巴 AI 编程平台，落地 Harness Engineering 四大支柱的实践载体
+- [[Spec驱动开发]] — SDD 方法论
 
 ## 参考文献
 
@@ -197,4 +211,5 @@ Prompt Engineering  →  Context Engineering  →  Harness Engineering
 - [基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践](https://mp.weixin.qq.com/s/ygQGSH5c7GHYDvkqWoQTXQ)（得物技术, 2026.05）
 - [[多仓管理]]
 - [十年老技术开发的 AI Agent 探索之路](https://mp.weixin.qq.com/s/r__2l_u6oXwzWHyD3wu_ZQ)（zhiyuanfu, 2026.05）— Harness Engineering 完整实践案例：SDD + 调度层 + 并发 + 失败切换 + 自举
+- [告别"氛围编程"：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践](https://mp.weixin.qq.com/s/-_IBJFuXpvoqMJxL9oaEJQ)（高德大模型应用平台·王树新, 2026.05）— Qoder 实践版 Harness 四大支柱：上下文工程、架构约束、反馈回路、人类监督
 - [[Spec驱动开发]] — SDD 方法论

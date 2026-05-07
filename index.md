@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：library
-- 素材总数：65
-- Wiki 页面总数：119
+- 素材总数：66
+- Wiki 页面总数：121
 
 ---
 
@@ -19,7 +19,7 @@
 - [[AI-Agent]] · [[Hermes-Agent]] · [[Harness]] · [[Harness-Engineering]]
 - [[Session]] · [[Sandbox]] · [[Skills]] · [[Vault-Proxy]]
 - [[MemOS]] · [[Memory-Store]] · [[OpenClaw]] · [[MCP]]
-- [[Pi]] · [[Agent-Native]] · [[Agentic-CI-CD]] · [[Claude-Managed-Agents]]
+- [[Pi]] · [[Qoder]] · [[Agent-Native]] · [[Agentic-CI-CD]] · [[Claude-Managed-Agents]]
 - [[Context-Engineering]] · [[NeoCloud]] · [[Spec驱动开发]] · [[VibeCoding]]
 - [[Wardley-Map]] · [[UX-设计]] · [[Agent隔离]] · [[IaaS]] · [[PaaS]]
 - [[S3对象存储]] · [[AI优先战略]] · [[AI生码]] · [[AI经济学]]
@@ -46,6 +46,8 @@
 ## 素材摘要
 
 > 每个消化过的素材都有一篇摘要
+
+- 2026-05-07 [[sources/2026-05-07-告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践|告别"氛围编程"：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践]] - SDD、Harness Engineering、Qoder、Vibe Coding、HITL、AI编程
 
 - 2026-05-07 [[sources/2026-05-07-十年老技术开发的AIAgent探索之路|十年老技术开发的 AI Agent 探索之路]] - AI Agent、SDD、Harness Engineering、实践分享、Goal-Driven
 - 2026-05-07 [[sources/2026-05-07-三个月翻100倍Agent时代的流量画像|三个月翻 100 倍：Agent 时代的流量画像]] - AI Agent、流量分析、开源、内容分发
@@ -82,9 +84,8 @@
 - 2026-05-05 [[三分天下为什么AgentMemory框架是死路|sources/2026-05-05-三分天下为什么AgentMemory框架是死路]] - Agent Memory、PostgreSQL、AI Agent
 - 2026-05-05 [[versitygw一条命令将本地文件系统变成S3服务|sources/2026-05-05-versitygw一条命令将本地文件系统变成S3服务]] - versitygw、S3、云原生、对象存储
 - 2026-05-05 [[VibeCoding是中年男人的钓鱼|sources/2026-05-05-VibeCoding是中年男人的钓鱼]] - VibeCoding、AI、写意编程
-- 2026-04-29 [[AI经济账算不通|sources/2026-04-29-AI经济账算不通]] - AI经济、生成式AI、数据中心、推理成本
+- 2026-04-29 [[sources/2026-04-29-AI经济账根本算不通|AI经济账根本算不通]] - AI经济、生成式AI、数据中心、推理成本
 - 2026-04-28 [[Claude_Code_Skills|sources/2026-04-28-Claude_Code_Skills]] - Claude Code、Skills、Anthropic
-- 2026-04-24 [[Codeindex让大模型更好地理解你的代码|sources/2026-04-24-Codeindex让大模型更好地理解你的代码]] - 代码索引、语义理解
 - 2026-04-23 [[MCP没死|sources/2026-04-23-MCP没死]] - MCP、Anthropic、CLI、Agent
 - 2026-04-21 [[零一智源superpowers底层实现解析|sources/2026-04-21-零一智源superpowers底层实现解析]] - Superpowers、Agent技能系统
 - 2026-04-21 [[知识管理新范式从文档到WikiAgent时代的信息组织革命|sources/2026-04-21-知识管理新范式从文档到WikiAgent时代的信息组织革命]] - WikiAgent、知识管理、DeepWiki
@@ -97,10 +98,9 @@
 - 2026-05-06 [[sources/2026-05-06-基于Harness+SDD+多仓管理模式的AI全栈开发实践|基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践]] - Harness Engineering、SDD、多Agent、全栈开发、AI编程
 
 ---
-
-- 2026-04-23 [[sources/Anthropic工程博客：25词system prompt如何摧毁Claude Code|Anthropic工程博客：25词system prompt如何摧毁Claude Code]] - Claude Code、Anthropic、system prompt、postmortem
-- 2026-04-23 [[sources/Anthropic最新博客：MCP没死，它又来了|Anthropic最新博客：MCP没死，它又来了]] - MCP、Anthropic、协议、工具调用
-- 2026-04-24 [[sources/Codeindex让大模型更好地理解你的代码|Codeindex让大模型更好地理解你的代码]] - Codebase Indexing、RAG、代码理解
+- 2026-04-24 [[sources/2026-04-24-Codeindex让大模型更好地理解你的代码|Codeindex让大模型更好地理解你的代码]] - 代码索引、语义理解
+- 2026-04-23 [[sources/2026-04-23-Claude-Code质量退化|ChatGPT出圈：2026年4月Claude Code质量争议深度复盘]] - Claude Code、Anthropic、system prompt、postmortem
+- 2026-04-23 [[sources/2026-04-23-MCP没死|MCP没死：Anthropic最新博客解读]] - MCP、Anthropic、CLI、Agent
 - 2026-05-05 [[sources/versitygw一条命令将本地文件系统变成S3服务|versitygw一条命令将本地文件系统变成S3服务]] - S3、存储、vsitygw、开源
 - 2026-05-05 [[sources/什么是pi下一代Agent架构|什么是pi下一代Agent架构]] - Pi、Agent架构、多Agent
 - 2026-05-05 [[sources/从玩具到生产力用真实项目讲透AIAgent的HarnessEngineering|从玩具到生产力用真实项目讲透AIAgent的HarnessEngineering]] - Harness Engineering、真实项目、实践
@@ -109,10 +109,10 @@
 - 2026-04-22 [[sources/多智能体怎么落地Anthropic字节NousResearch给了三套答案|多智能体怎么落地Anthropic字节NousResearch给了三套答案]] - 多智能体、Anthropic、字节、NousResearch
 - 2026-04-29 [[sources/当AI把开发速度干到10倍但为什么交付还是慢得不行|当AI把开发速度干到10倍但为什么交付还是慢得不行]] - AI提效、交付、组织管理
 - 2026-05-05 [[sources/托管Agent执行循环只是起点AgentRun托管的更是企业AI生产全链路|托管Agent执行循环只是起点AgentRun托管的更是企业AI生产全链路]] - AgentRun、企业AI、Agent执行循环
-- 2026-05-05 [[sources/深度拆解HermesAgent的记忆系统它如何修正OpenClaw的误区|深度拆解HermesAgent的记忆系统它如何修正OpenClaw的误区]] - Hermes Agent、记忆系统、OpenClaw
+- 2026-05-05 [[sources/2026-05-05-深度拆解HermesAgent的记忆系统|深度拆解HermesAgent的记忆系统]] - Hermes Agent、记忆系统、OpenClaw
 - 2026-04-21 [[sources/知识管理新范式从文档到WikiAgent时代的信息组织革命|知识管理新范式从文档到WikiAgent时代的信息组织革命]] - 知识管理、Wiki、Agent
 - 2026-04-22 [[sources/研发团队没有战斗力怎么解|研发团队没有战斗力怎么解]] - 研发团队、管理、战斗力
-- 2026-05-05 [[sources/给10万Star的Hermes装个记忆外挂AI终于能越用越聪明了|给10万Star的Hermes装个记忆外挂AI终于能越用越聪明了]] - Hermes、记忆外挂、外部记忆
+- 2026-05-05 [[sources/2026-05-05-给10万Star的Hermes装个记忆外挂|给10万Star的Hermes装个记忆外挂]] - Hermes、记忆外挂、外部记忆
 - 2026-05-05 [[sources/阿里云的P0故障和PaaS产品的特性|阿里云的P0故障和PaaS产品的特性]] - 阿里云、P0故障、PaaS
 - 2026-04-21 [[sources/零一智源superpowers底层实现解析|零一智源superpowers底层实现解析]] - superpowers、零一智源、Agent工具
 

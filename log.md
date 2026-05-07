@@ -4,6 +4,16 @@
 
 ---
 
+## 2026-05-07 ingest | 告别"氛围编程"：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践
+
+- 素材摘要：2026-05-07-告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践
+- 新建实体：[[Qoder]]
+- 更新实体：[[Harness-Engineering]]（新增 Qoder 四大支柱实践）、[[Spec驱动开发]]（新增 SDD 四阶段 SHITL 实践）、[[VibeCoding]]（新增系统性批判）
+- 更新主题：无
+- 更新 index.md 和 log.md
+
+---
+
 ## 2026-05-05 — batch8: 处理剩余文件5-9（知识管理、Superpowers、Hermes记忆）
 
 - **操作**：消化3篇待处理素材，创建摘要页

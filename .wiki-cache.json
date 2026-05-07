@@ -2,113 +2,253 @@
   "entries": {
     "raw/wechat/2026-05-06-三大_Agent_平台独立收敛到同一个_Markdown_方案——这不是最优解，只是最容易走通的路.md": {
       "hash": "sha256:5e9c1f5d829374df159741aefefba113dd4e53f1d58e9f178f65d495eb0430bb",
-      "ingested_at": "2026-05-06T15:35:16Z",
+      "ingested_at": "2026-05-07T12:39:48Z",
       "source_page": "wiki/sources/2026-05-06-三大Agent平台收敛到Markdown方案.md"
     },
     "raw/wechat/AgentNative云服务的雏形：从ClaudeManagedAgents看云计算的第三次原生化.md": {
       "hash": "sha256:eb6d7bf4a976ebca1eb2cabf6a1f2d45dc665ada6cd1756f8be8bf4e72b3defd",
-      "ingested_at": "2026-05-07T00:50:05Z",
+      "ingested_at": "2026-05-07T12:39:55Z",
       "source_page": "wiki/sources/2026-05-06-AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化.md"
     },
     "raw/wechat/2026-05-07-三个月翻_100_倍：Agent_时代的流量画像.md": {
       "hash": "sha256:b6f4ec66b201c5112ae89b27ecd5563d2ff0aeb3bdf4263ed9b5c5cbd1fbbdca",
-      "ingested_at": "2026-05-07T01:38:51Z",
+      "ingested_at": "2026-05-07T12:39:50Z",
       "source_page": "wiki/sources/2026-05-07-三个月翻100倍Agent时代的流量画像.md"
     },
     "raw/wechat/你以为在写Spec其实在绕路写代码.md": {
       "hash": "sha256:dd1a90ef7cf6eefe57fcf7e89ee3c02c2ccb99c2d63f90ca5e5c53a626612c69",
-      "ingested_at": "2026-05-07T12:16:00Z",
+      "ingested_at": "2026-05-07T12:40:13Z",
       "source_page": "wiki/sources/2026-04-15-你以为在写Spec其实在绕路写代码.md"
     },
     "raw/wechat/知识管理新范式从文档到WikiAgent时代的信息组织革命.md": {
       "hash": "sha256:f37952356147670f3020340b623713e2af29a5f2359762b0f42cee7bf352ecbf",
-      "ingested_at": "2026-05-07T12:16:06Z",
-      "source_page": "wiki/sources/知识管理新范式从文档到WikiAgent时代的信息组织革命.md"
+      "ingested_at": "2026-05-07T12:40:24Z",
+      "source_page": "wiki/sources/2026-04-21-知识管理新范式从文档到WikiAgent时代的信息组织革命.md"
     },
     "raw/wechat/2026-04-22-研发团队没有战斗力怎么解.md": {
       "hash": "sha256:d99af31a7d0b68e830cf4e6540254a090b585272ed7583b20815614c79990943",
-      "ingested_at": "2026-05-07T12:15:52Z",
+      "ingested_at": "2026-05-07T12:39:46Z",
       "source_page": "wiki/sources/2026-04-22-研发团队没有战斗力怎么解.md"
     },
     "raw/wechat/阿里云的P0故障和PaaS产品的特性.md": {
       "hash": "sha256:997b29d6fb9d1e6783d076c3def2f619feaebfa7c64f5f781d7456d684f400ad",
-      "ingested_at": "2026-05-07T12:16:08Z",
-      "source_page": "wiki/sources/阿里云的P0故障和PaaS产品的特性.md"
+      "ingested_at": "2026-05-07T12:40:28Z",
+      "source_page": "wiki/sources/2026-05-05-阿里云的P0故障和PaaS产品的特性.md"
     },
     "raw/wechat/零一智源superpowers底层实现解析.md": {
       "hash": "sha256:d139cbf83d7b14dcf6fa51b4e097702865b3d8f1a7b46f27117dc566fb21b4a7",
-      "ingested_at": "2026-05-07T12:16:08Z",
-      "source_page": "wiki/sources/零一智源superpowers底层实现解析.md"
+      "ingested_at": "2026-05-07T12:40:29Z",
+      "source_page": "wiki/sources/2026-04-21-零一智源superpowers底层实现解析.md"
     },
     "raw/wechat/2026-04-29-淘天营销中后台生码工作流最佳实践.md": {
       "hash": "sha256:8476cc986eed64acc8ef23b9669287b9ee8c2ee387319562740d57b99f3424e9",
-      "ingested_at": "2026-05-07T12:15:53Z",
+      "ingested_at": "2026-05-07T12:39:47Z",
       "source_page": "wiki/sources/2026-04-29-淘天营销中后台生码工作流最佳实践.md"
     },
     "raw/wechat/AI-Agent框架选型与工程实践.md": {
       "hash": "sha256:5fd496c451c0dff6c9df098b6621eaa20139d4745b38e7a77fb440b48a5c2036",
-      "ingested_at": "2026-05-07T12:15:54Z",
+      "ingested_at": "2026-05-07T12:39:52Z",
       "source_page": "wiki/sources/2026-04-22-AI-Agent框架选型与工程实践.md"
     },
     "raw/wechat/AIAgent架构设计一记忆系统设计.md": {
       "hash": "sha256:5174c91ca75d8d6d43d3642c1ad1432bc4b95252b7ef6294e9486a82d85ae45c",
-      "ingested_at": "2026-05-07T12:15:55Z",
+      "ingested_at": "2026-05-07T12:39:54Z",
       "source_page": "wiki/sources/2026-04-21-AIAgent架构设计一记忆系统设计.md"
     },
     "raw/wechat/Agent隔离安全的思考.md": {
       "hash": "sha256:88cca29740c2fa699c97668f387ce2a2c33d95e4d08d812160de5ccfdf470eaa",
-      "ingested_at": "2026-05-07T12:15:56Z",
-      "source_page": "wiki/sources/2026-04-15-Agent隔离安全.md"
+      "ingested_at": "2026-05-07T12:39:56Z",
+      "source_page": "wiki/sources/2026-05-06-Agent隔离安全的思考.md"
     },
     "raw/wechat/B站系统环境基线管理实践.md": {
       "hash": "sha256:326dbfda2f166a9fa1b661ec544e95de17d6474f7cd1cf3ad5996e02a4ab0764",
-      "ingested_at": "2026-05-07T12:15:57Z",
+      "ingested_at": "2026-05-07T12:39:59Z",
       "source_page": "wiki/sources/2026-05-05-B站系统环境基线管理实践.md"
     },
     "raw/wechat/Claude_Code_Skills.md": {
       "hash": "sha256:201e6713b6874638f574bb8cf4c2c4ac4d73448a44ccd2c312b02d76e88e527d",
-      "ingested_at": "2026-05-07T12:15:58Z",
+      "ingested_at": "2026-05-07T12:40:00Z",
       "source_page": "wiki/sources/2026-04-28-Claude_Code_Skills.md"
     },
     "raw/wechat/VibeCoding是中年男人的钓鱼.md": {
       "hash": "sha256:d547d5057eac4534cf7d03fb03b1b603775c0bee22f3a243baabf22cccfcb68f",
-      "ingested_at": "2026-05-07T12:15:59Z",
+      "ingested_at": "2026-05-07T12:40:04Z",
       "source_page": "wiki/sources/2026-05-05-VibeCoding是中年男人的钓鱼.md"
     },
     "raw/wechat/借LLMwiki聊聊知识管理.md": {
       "hash": "sha256:774805e584bb7d641719977aa75761fcd68a2fb48aaea8cc51d4078241bcbe5c",
-      "ingested_at": "2026-05-07T12:16:01Z",
+      "ingested_at": "2026-05-07T12:40:14Z",
       "source_page": "wiki/sources/2026-04-20-借LLMwiki聊聊知识管理.md"
     },
     "raw/wechat/对抗软件复杂度的战争.md": {
       "hash": "sha256:6708340c90c82f2c830fefd11b75f24ced59ce7894b0f80505021c5634af6274",
-      "ingested_at": "2026-05-07T12:16:02Z",
+      "ingested_at": "2026-05-07T12:40:17Z",
       "source_page": "wiki/sources/2026-04-22-对抗软件复杂度的战争.md"
     },
     "raw/wechat/是怪物就去北京上海深圳.md": {
       "hash": "sha256:3904d4c1846327eac95049df9fa072d148322b596a12980703f1a2a88a9f00d0",
-      "ingested_at": "2026-05-07T12:16:03Z",
+      "ingested_at": "2026-05-07T12:40:20Z",
       "source_page": "wiki/sources/2026-04-20-是怪物就去北京上海深圳.md"
     },
     "raw/wechat/是的我用AI写文章咋滴.md": {
       "hash": "sha256:c26857aa7f13324122512b22e818a3b419de3c40887344c993d3e359d3acee1f",
-      "ingested_at": "2026-05-07T12:16:04Z",
+      "ingested_at": "2026-05-07T12:40:21Z",
       "source_page": "wiki/sources/2026-04-20-是的我用AI写文章咋滴.md"
     },
     "raw/wechat/深度解析HarnessEngineering.md": {
       "hash": "sha256:5af1e49419758befbaff276ed532a93b15a16078f62b6763b6740d1d4146bad4",
-      "ingested_at": "2026-05-07T12:16:05Z",
+      "ingested_at": "2026-05-07T12:40:23Z",
       "source_page": "wiki/sources/2026-04-15-深度解析HarnessEngineering.md"
     },
     "raw/wechat/研习笔记justbash虚拟bash沙箱.md": {
       "hash": "sha256:d322d46d817e62731d2568bc456b0e6c539e4cf365811d54610e49eef0bddc9d",
-      "ingested_at": "2026-05-07T12:16:07Z",
+      "ingested_at": "2026-05-07T12:40:25Z",
       "source_page": "wiki/sources/2026-04-21-研习笔记justbash虚拟bash沙箱.md"
     },
     "raw/wechat/（大多数）年轻人玩不转AI.md": {
       "hash": "sha256:206aaaa7ad9f2e65ef22071f871eacf5dec9dc00d5dfe73108602b082411966e",
-      "ingested_at": "2026-05-07T12:16:09Z",
+      "ingested_at": "2026-05-07T12:40:30Z",
       "source_page": "wiki/sources/2026-04-（大多数）年轻人玩不转AI.md"
+    },
+    "raw/wechat/2026-05-07-十年老技术开发的_AI_Agent_探索之路.md": {
+      "hash": "sha256:70471636a391f58d08488d36802efe8a599d2e8756efd1031bf8307bbe43b2fc",
+      "ingested_at": "2026-05-07T12:39:51Z",
+      "source_page": "wiki/sources/2026-05-07-十年老技术开发的AIAgent探索之路.md"
+    },
+    "raw/wechat/S3文件存储桶加速传统存储厂商“死亡”.md": {
+      "hash": "sha256:13ec0eb305c1991179a091517ab6938f95e5fb8437581f6de85636ea0949fb8d",
+      "ingested_at": "2026-05-07T12:40:03Z",
+      "source_page": "wiki/sources/2026-04-15-S3文件存储桶加速传统存储厂商死亡.md"
+    },
+    "raw/wechat/2026-04-29-AI的经济账根本算不通.md": {
+      "hash": "sha256:ccb0a0ea11900c09aafcf8244c06f278c4558b5063bf95171f349c7ac7021ef7",
+      "ingested_at": "2026-05-07T12:37:28Z",
+      "source_page": "wiki/sources/2026-04-29-淘天营销中后台生码工作流最佳实践.md"
+    },
+    "raw/wechat/2026-05-06-基于_Harness_+_SDD_+_多仓管理模式的_AI_全栈开发实践｜得物技术.md": {
+      "hash": "sha256:3e1bdfb837bff4764df563ed9b7acbb7e5aa3c161404e81270f872648420d928",
+      "ingested_at": "2026-05-07T12:39:49Z",
+      "source_page": "wiki/sources/2026-05-06-基于Harness+SDD+多仓管理模式的AI全栈开发实践.md"
+    },
+    "raw/wechat/什么是pi？下一代Agent架构？.md": {
+      "hash": "sha256:0d82b012669553d9ac04c86605e282abe362d479b706b80fb9c4609e02a4e95b",
+      "ingested_at": "2026-05-07T12:40:09Z",
+      "source_page": "wiki/sources/2026-05-05-什么是pi下一代Agent架构.md"
+    },
+    "raw/wechat/123 个结构化需求、20 个技能、5 种格式检查器、3 层上下文：拆解 Warp 让 Agent 在 124 万行 Rust 中稳定交付的 Harness 工程.md": {
+      "hash": "sha256:4494e2cd57f77c7bf076aec2eceba7dc7a76b4f90fa8dae0d3269d028cc0f3e6",
+      "ingested_at": "2026-05-07T12:39:45Z",
+      "source_page": "wiki/sources/2026-05-05-123个结构化需求20个技能5种格式检查器3层上下文拆解Warp.md"
+    },
+    "raw/wechat/OpenClaw的启示身份权限管理是AIAgent时代的阿喀琉斯之踵.md": {
+      "hash": "sha256:7b8e5723b7faca2c36c942cc8606277abf1b8757618dcbce73e67a0f26053c79",
+      "ingested_at": "2026-05-07T12:39:17Z",
+      "source_page": "wiki/sources/2026-04-OpenClaw身份权限管理.md"
+    },
+    "raw/wechat/云原生基础设施 + SRE 落地项目：从平台建设到稳定性工程闭环.md": {
+      "hash": "sha256:bf029c0a0b739f4ba0ec8d891017708a40a3510d801f6ee3e36f52e7b8bfd34a",
+      "ingested_at": "2026-05-07T12:40:08Z",
+      "source_page": "wiki/sources/2026-05-05-云原生基础设施SRE落地项目从平台建设到稳定性工程闭环.md"
+    },
+    "raw/wechat/Mintlify虚拟文件系统ChromaFS——给AI造假的文件系统接口.md": {
+      "hash": "sha256:27a06253ade67feac219755ce833349131d6b06b23cad165c036965684c14c8f",
+      "ingested_at": "2026-05-07T12:40:02Z",
+      "source_page": "wiki/sources/2026-04-Mintlify虚拟文件系统ChromaFS.md"
+    },
+    "raw/wechat/Agent驱动的CICD流程变革：从自动化执行到智能自治.md": {
+      "hash": "sha256:fa14ff95b43c4840c7f6c354e757842bc754d4de16593aeed8e7267e9684096b",
+      "ingested_at": "2026-05-07T12:39:57Z",
+      "source_page": "wiki/sources/2026-05-06-Agent驱动的CICD流程变革从自动化执行到智能自治.md"
+    },
+    "raw/wechat/Anthropic 的 Harness 哲学：把 Agent 当牲口，而非宠物.md": {
+      "hash": "sha256:f959dabf439cedf34c7d65550dbdcdf5f5ccaea251f28dba6cba7f60e942f0da",
+      "ingested_at": "2026-05-07T12:39:58Z",
+      "source_page": "wiki/sources/2026-05-05-Anthropic的Harness哲学把Agent当牲口而非宠物.md"
+    },
+    "raw/wechat/Codeindex · 让大模型更好地理解你的代码.md": {
+      "hash": "sha256:d9c273787a9f7fecabef3e69cce6ad6e17845ccce43565073b147c965164a1ea",
+      "ingested_at": "2026-05-07T12:40:01Z",
+      "source_page": "wiki/sources/2026-04-24-Codeindex让大模型更好地理解你的代码.md"
+    },
+    "raw/wechat/versitygw：一条命令将本地文件系统变成 S3 服务.md": {
+      "hash": "sha256:db70d3606977faf44375800786cc9cf6dda3b936f245b5801b45f257980627c8",
+      "ingested_at": "2026-05-07T12:40:05Z",
+      "source_page": "wiki/sources/2026-05-05-versitygw一条命令将本地文件系统变成S3服务.md"
+    },
+    "raw/wechat/三分天下：为什么Agent Memory框架是死路.md": {
+      "hash": "sha256:3a651f35c0548b4b7439145e5f3e2aca2a5c39442edf57ba412e1b11bdac55e9",
+      "ingested_at": "2026-05-07T12:40:06Z",
+      "source_page": "wiki/sources/2026-05-05-三分天下为什么AgentMemory框架是死路.md"
+    },
+    "raw/wechat/为什么你的AI 优先战略可能大错特错？.md": {
+      "hash": "sha256:df759dbf6097ff0fb567cfbb5a2d4e5963b0f5e01b52b1bca4902b6e98768160",
+      "ingested_at": "2026-05-07T12:40:07Z",
+      "source_page": "wiki/sources/2026-04-15-为什么你的AI优先战略可能大错特错.md"
+    },
+    "raw/wechat/从提需求到部署发布，全AI全自动化后，研发效能全面跃升.md": {
+      "hash": "sha256:7dbd1683eeb7512d49e3819c42ddb78d4c5b41a395817625b2bbefc818274816",
+      "ingested_at": "2026-05-07T12:40:10Z",
+      "source_page": "wiki/sources/2026-04-20-从提需求到部署发布全AI全自动化后研发效能全面跃升.md"
+    },
+    "raw/wechat/从玩具到生产力：用真实项目讲透 AI Agent 的 Harness Engineering_xLdQ9Z3n3SNwaQtmrM28FA.md": {
+      "hash": "sha256:3663904735cd02ca86c9e5e549e68768ecbc64bee66df8347e8cf749f4a878b8",
+      "ingested_at": "2026-05-07T12:40:11Z",
+      "source_page": "wiki/sources/2026-05-05-从玩具到生产力用真实项目讲透AIAgent的HarnessEngineering.md"
+    },
+    "raw/wechat/从第一性原理思考 Agentic Engineering.md": {
+      "hash": "sha256:404f3d1f00eef718c91c6dd9372dee8f8b085b90999efbeecb43869384588be8",
+      "ingested_at": "2026-05-07T12:40:12Z",
+      "source_page": "wiki/sources/2026-05-05-从第一性原理思考AgenticEngineering.md"
+    },
+    "raw/wechat/墙与门：Agent 的边界体验.md": {
+      "hash": "sha256:cbdbf9cda3bd0d688bfa466927bea45140d39453cf86d285e9be05b9db573f14",
+      "ingested_at": "2026-05-07T12:40:15Z",
+      "source_page": "wiki/sources/2026-04-20-墙与门Agent的边界体验.md"
+    },
+    "raw/wechat/多智能体怎么落地？Anthropic、字节、NousResearch 给了三套答案.md": {
+      "hash": "sha256:90a134d6cafaeab025432e08ea5e6a4d756569c696d964a596297a116c33f76a",
+      "ingested_at": "2026-05-07T12:40:16Z",
+      "source_page": "wiki/sources/2026-04-22-多智能体怎么落地Anthropic字节NousResearch给了三套答案.md"
+    },
+    "raw/wechat/当 AI 把开发速度干到 10 倍，但为什么交付还是慢得不行。.md": {
+      "hash": "sha256:8ecebc7c8fa3ccb0c13218542ceb1ad413f10545fe1c47696c4c12cf18c88165",
+      "ingested_at": "2026-05-07T12:40:18Z",
+      "source_page": "wiki/sources/2026-04-29-当AI把开发速度干到10倍但为什么交付还是慢得不行.md"
+    },
+    "raw/wechat/托管 Agent 执行循环只是起点，AgentRun 托管的更是企业 AI 生产全链路.md": {
+      "hash": "sha256:d3932388bf84fd8d287bd3cb40e859b6a2c9539e3e6dbaf75be5722177902276",
+      "ingested_at": "2026-05-07T12:40:19Z",
+      "source_page": "wiki/sources/2026-05-05-托管Agent执行循环只是起点AgentRun托管的更是企业AI生产全链路.md"
+    },
+    "raw/wechat/深度拆解 Hermes Agent 的记忆系统：它如何修正 OpenClaw 的误区.md": {
+      "hash": "sha256:6711220a790b0b245c8ea0728e89b7c84f55931047664006aa1639b8d4d6e06f",
+      "ingested_at": "2026-05-07T12:40:22Z",
+      "source_page": "wiki/sources/2026-05-05-深度拆解HermesAgent的记忆系统.md"
+    },
+    "raw/wechat/研发团队没有战斗力，怎么解？.md": {
+      "hash": "sha256:a86ba7af4c64e7703b207a4ed8ade0adc915b585ca3466771fcdc648be5b9ab4",
+      "ingested_at": "2026-05-07T12:40:26Z",
+      "source_page": "wiki/sources/2026-04-22-研发团队没有战斗力怎么解.md"
+    },
+    "raw/wechat/给 10 万 Star 的 Hermes 装个记忆外挂，AI 终于能越用越聪明了。.md": {
+      "hash": "sha256:6eedc34d963210091b8b2ca16011d8cc4b5ef0a6bca184704c952931883409f1",
+      "ingested_at": "2026-05-07T12:40:27Z",
+      "source_page": "wiki/sources/2026-05-05-给10万Star的Hermes装个记忆外挂.md"
+    },
+    "raw/wechat/Anthropic 最新博客：MCP 没死，它又来了.md": {
+      "hash": "sha256:2f482902cf2cd00dcb986188e3de871457342901a3194e1c0e0d6c33609cdc96",
+      "ingested_at": "2026-05-07T12:42:07Z",
+      "source_page": "wiki/sources/2026-04-23-MCP没死.md"
+    },
+    "raw/wechat/Anthropic 工程博客自爆：一条 25 词的 system prompt 限制如何摧毁 Claude Code.md": {
+      "hash": "sha256:b3c2fa9523c390efea1bc036cf0ea00b597dcd2f2386f5ee5e4bfaeafdfe26f8",
+      "ingested_at": "2026-05-07T12:42:08Z",
+      "source_page": "wiki/sources/2026-04-23-Claude-Code质量退化.md"
+    },
+    "raw/wechat/2026-05-07-告别“氛围编程”：基于_Harness_治理和_SDD_的团队级_AI_研发范式演进与实践.md": {
+      "hash": "sha256:24a71538b24be29cee5c508a4b9aa8a366ca6291052aceb958ef1a1812aa51b8",
+      "ingested_at": "2026-05-07T13:04:59Z",
+      "source_page": "sources/2026-05-07-告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践"
     }
   }
 }
