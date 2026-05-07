@@ -249,6 +249,11 @@
       "hash": "sha256:24a71538b24be29cee5c508a4b9aa8a366ca6291052aceb958ef1a1812aa51b8",
       "ingested_at": "2026-05-07T13:04:59Z",
       "source_page": "sources/2026-05-07-告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践"
+    },
+    "raw/wechat/2026-05-07-GUI_型_DevOps_平台的天花板，Ashby_在_1956_年就画好了.md": {
+      "hash": "sha256:17bdfae521c28c01dd66494a431202a1f200489eac77872060c56a611c2a6b6f",
+      "ingested_at": "2026-05-07T15:14:03Z",
+      "source_page": "sources/2026-05-07-GUI型DevOps平台的天花板，Ashby在1956年就画好了"
     }
   }
 }

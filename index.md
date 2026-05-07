@@ -7,14 +7,14 @@
 ## 概览
 
 - 主题：library
-- 素材总数：66
-- Wiki 页面总数：121
+- 素材总数：67
+- Wiki 页面总数：123
 
 ---
 
 ## 实体页
 
-> 人物、组织、概念、工具等（共 51 个）
+> 人物、组织、概念、工具等（共 53 个）
 
 - [[AI-Agent]] · [[Hermes-Agent]] · [[Harness]] · [[Harness-Engineering]]
 - [[Session]] · [[Sandbox]] · [[Skills]] · [[Vault-Proxy]]
@@ -30,6 +30,7 @@
 - [[Codebase-Indexing]] · [[多仓管理]]
 - [[AI流量分析]] · [[Pigsty]] · [[Cloudflare]]
 - [[Task-Driven]] · [[Goal-Driven]] · [[24h-打工人]]
+- [[Ashby-必要多样性定律]] · [[Platform-Engineering]]
 
 ---
 

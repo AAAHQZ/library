@@ -4,6 +4,15 @@
 
 ---
 
+## 2026-05-07 ingest | GUI 型 DevOps 平台的天花板，Ashby 在 1956 年就画好了
+
+- 素材摘要：2026-05-07-GUI型DevOps平台的天花板，Ashby在1956年就画好了
+- 新建实体：[[Ashby-必要多样性定律]]（控制论经典定律）、[[Platform-Engineering]]
+- 更新实体：[[Harness-Engineering]]（增加 Ashby 视角）、[[VibeCoding]]（增加控制论困境）
+- 更新 index.md 和 log.md
+
+---
+
 ## 2026-05-07 ingest | 告别"氛围编程"：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践
 
 - 素材摘要：2026-05-07-告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践

@@ -201,6 +201,7 @@ Prompt Engineering  →  Context Engineering  →  Harness Engineering
 - [[Cursor]] — AI 原生 IDE，Harness Engineering 的重要工具载体
 - [[Qoder]] — 阿里巴巴 AI 编程平台，落地 Harness Engineering 四大支柱的实践载体
 - [[Spec驱动开发]] — SDD 方法论
+- [[Ashby-必要多样性定律]] —熵控制的控制论理论依据，"以少御多"注定失败
 
 ## 参考文献
 
