@@ -1,56 +1,58 @@
 ---
-title: "AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化"
-date: 2026-05-06
-source: 微信公众号
-url: https://mp.weixin.qq.com/s/cMgOmPiGdxGUmWf1R5PKYA
-tags:
-  - AI Agent
-  - Cloud Native
-  - Claude
-  - Anthropic
-  - Agent Native
-type: source
-confidence: EXTRACTED
+title: "Agent Native云服务的雏形：从ClaudeManagedAgents看云计算的第三次原生化"
+slug: agent-native-cloud-claude-managed-agents
+tags: [Agent-Native, Claude-Managed-Agents, 云计算, 云原生, Anthropic]
+created: 2026-05-06
+updated: 2026-05-06
+source: ../raw/wechat/AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化.md
+references:
+  - https://mp.weixin.qq.com/s/cMgOmPiGdxGUmWf1R5PKYA
 ---
 
-# AgentNative云服务的雏形从ClaudeManagedAgents看云计算的第三次原生化
+# Agent Native 云服务的雏形
 
-> 从 Claude Managed Agents 看云计算的第三次原生化
-
-## 基本信息
-
-- **来源**：微信公众号
-- **原文链接**：https://mp.weixin.qq.com/s/cMgOmPiGdxGUmWf1R5PKYA
-- **消化日期**：2026-05-06
+> 从 Claude Managed Agents（CMA）分析云计算的第三次原生化跃迁。论证 Cloud Native（CPU/VM）和 AI Native（GPU/NeoCloud）都无法原生承载 Agent Workload，Agent workload 独有的三个特征催生 Agent Native 云服务。CMA 四件套抽象和五大关键技术分析，产业价值链重分配预测。
 
 ## 核心观点
 
-本文提出"Agent Native"作为云计算的第三代原生化形态：
+1. **第三代云形态**：Agent Native 云服务是继 Cloud Native、AI Native 之后的第三次原生化
+2. **虚拟化对象跃迁**：从"硬件虚拟化"到"认知工作流虚拟化"
+3. **CMA 是融合编排层**：建立在经典云 CPU 算力与 NeoCloud GPU 算力之上，统一暴露 Agent 原语
 
-1. **背景**：云计算经历了两代——Cloud Native（CPU算力+VM/容器）和 AI Native/NeoCloud（GPU算力+裸金属），都无法原生承载 Agent workload
-2. **Agent workload 三大独有特征**：不可信代码动态生成、长周期异步执行、LLM推理与CPU工具调用高频交错
-3. **CMA 四件套抽象**：Agent（配置实体）、Environment（容器模板）、Session（持久化事件日志）、Events（双向通信）
-4. **底层技术**：Harness/Sandbox 解耦、Vau lt凭证隔离、Memory Store OCC、Outcomes目标闭环、单层委派控制
-5. **产业冲击**：重分配 Agent Native 厂商、模型中立云厂商、NeoCloud、SaaS、iPaaS 的价值链
+## 为什么前两代云无法承载 Agent Workload
 
-## 关键概念
-— 云计算第三代原生化形态，为 Agent workload 原生设计
-- [[Claude-Managed-Agents]] — Anthropic 的托管 Agent 运行时服务
-- [[Harness]] — Agent 运行时的调度内核，负责模型推理和工具路由
-- [[Sandbox]] — 隔离的代码执行域，与 Harness 解耦
-- Session — 只追加的事件日志，持久化存储，独立于模型上下文窗口
-- [[MCP]] — Model Context Protocol，统一接口协议
-- [[Memory-Store]] — 跨 Session 的持久化记忆，OCC 并发控制
-- [[Vault-Proxy]] — 凭证隔离架构，OAuth token 不进入 Sandbox
-- [[NeoCloud]] — 面向 LLM 训练与推理的 GPU 专用云
+**Agent workload 三个独有特征**：
+1. **不可信代码的动态生成与执行**：LLM 即兴生成代码，行为空间无界
+2. **长周期异步执行**：数分钟到数小时，需容忍断连、崩溃、上下文溢出
+3. **LLM 推理与通用计算高频交错**：Reason-Act 循环每轮都 GPU 推理 + CPU 工具调用
 
-## 精彩摘录
+## CMA 四件套领域抽象
 
-> Claude Managed Agents 不是新模型也不是新 API endpoint，而是打包了 Agent 循环、工具执行、沙盒容器、状态持久化的托管运行时，继以 CPU 算力为核心的 Cloud Native、以 GPU 算力为核心的 AI Native 之后，开启 Agent Native 的第三代云计算形态。
+| 概念 | 作用 |
+|------|------|
+| **Agent** | 可复用、版本化的配置实体（模型、系统提示词、工具集、MCP、Skills） |
+| **Environment** | 云端容器模板（预装运行时、网络规则、挂载文件系统） |
+| **Session** | 带持久化状态的长周期载体，底层是 append-only 事件日志 |
+| **Events** | 应用与 Agent 双向通信，通过 SSE 推送 |
 
-> Agent Native 的虚拟化对象，从硬件跃迁到了业务工作流逻辑：Session 虚拟化"经验"、Harness 虚拟化"调度"、Sandbox 虚拟化"执行"、Vault 虚拟化"身份"、Memory Store 虚拟化"记忆"。
+## CMA 五项关键技术
 
-## 与其他素材的关联
+1. **Harness 与 Sandbox 解耦**：Session 是 append-only 日志，Sandbox 崩溃可无缝续跑
+2. **凭证物理隔离（Vault/Proxy）**：Sandbox 永远不接触真实凭证
+3. **Memory Store OCC**：SHA-256 哈希防并发覆盖
+4. **Outcomes 目标闭环**：独立评估器 + Rubric + 自主迭代（默认 3 次，上限 20 次）
+5. **多 Agent 单层委派**：子 Agent 无权继续裂变，防止雪崩
 
-- 与 [[Anthropic的Harness哲学把Agent当牲口而非宠物|sources/2026-05-05-Anthropic的Harness哲学把Agent当牲口而非宠物]] 在 Harness 架构哲学上直接相关
-- 与 [[从玩具到生产力用真实项目讲透AIAgent的HarnessEngineering|sources/2026-05-05-从玩具到生产力用真实项目讲透AIAgent的HarnessEngineering]] 在 Harness Engineering 框架上互相印证
+## 产业冲击
+
+- **Agent Native 云厂商**：Anthropic 握先手，OpenAI 生态领先，Google 硬件整合最深
+- **模型中立云厂商**：长期风险是规模效应利好垂直整合玩家
+- **NeoCloud**：被迫向上延伸或与模型厂商深度绑定
+- **SaaS**：席位模式受冲击，合规类几乎不受影响
+
+## 相关页面
+
+- [[Agent-Native]]
+- [[Claude-Managed-Agents]]
+- [[Harness-Engineering]]
+- [[Sandbox]]

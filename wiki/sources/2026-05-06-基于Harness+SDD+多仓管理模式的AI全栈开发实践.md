@@ -1,59 +1,124 @@
 ---
-title: 基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践｜得物技术
-source: https://mp.weixin.qq.com/s/ygQGSH5c7GHYDvkqWoQTXQ
-author: 得物技术 / 盖伦
-date: 2026-05-06
-tags: [Harness Engineering, SDD, 多Agent, 全栈开发, AI编程, Cursor, Claude Code]
-topics: [AI-Agent工程实践, 研发效能管理]
+title: "基于Harness+SDD+多仓管理模式的AI全栈开发实践"
+slug: dewu-ai-fullstack-harness-sdd
+tags: [AI全栈开发, Harness, SDD, 多仓管理, Cursor, Claude-Code, 得物]
+created: 2026-05-06
+updated: 2026-05-06
+source: ../raw/wechat/2026-05-06-基于_Harness_+_SDD_+_多仓管理模式的_AI_全栈开发实践｜得物技术.md
+references:
+  - https://mp.weixin.qq.com/s/ygQGSH5c7GHYDvkqWoQTXQ
 ---
 
-## 摘要
+# 基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践
 
-得物技术团队提出 Harness（约束）+ SDD（Spec 驱动开发）+ 多 Agent 协作的全栈 AI 开发方法论，核心思路是给 AI 一个可模仿的参考实现而非让其凭空创造。通过将前后端代码放在同一工作区进行 Codebase Indexing、生成前后端两份 SDD 文档并行开发，配合三阶段验证策略，该团队将原本 2+4 人日的需求压缩至 3 人日，提效 50% 以上。文章还重点警示了 SDD 的隐性功能陷阱——AI 会悄悄复刻参考代码中的逻辑而不写入文档。
+> 得物技术团队，分享基于 Harness 思维 + SDD（Spec-Driven Development）+ 多仓工作区的 AI 全栈开发方法论。核心价值：采纳率提升、耗时降低 50%+、调试不依赖阻塞、AI 全栈学习成本骤降。
 
-## 核心概念
+## 核心理念：Harness 思维
 
-- [[Harness-Engineering]] — 给 AI 约束而非自由发挥，通过提供相似功能代码作为参考，让 AI 模仿已有实现，确保产出代码风格一致、复用率高。
-- [[Spec驱动开发]] — 全栈场景下需生成前后端各一份 SDD 文档（proposal.md / spec.md / tasks.md），接口契约严格对齐后再启动代码生成。
-- [[Agentic-CI-CD]] — 多 Agent 并行开发后，通过三阶段验证（Mock → 后端构建 → 联调）和前后端分步部署完成交付。
-- [[Claude-Managed-Agents]] — Claude Code 的 Subagent 机制可用于并行执行前后端代码生成任务，支持 Subagent 和 Team 两种协作模式。
-- [[Skills]] — SDD 指令（如 `openspec-propose`、`openspec-apply-change`）构成 Agent 的技能编排。
-- [[Agent-Memory框架]] — SDD 文档作为 Agent 的持久化上下文，防止长链路任务中信息丢失。
-- [[Sandbox]] — 后端编译验证（`mvn clean compile`）作为轻量级沙箱验证手段，无需完整启动服务。
-- [[MCP]] — 工具集成协议在 Subagent 配置中用于声明可用工具集。
+**问题**：让 AI 从零写代码，生成的是"外星代码"——风格不一致、复用率低、Code Review 成本高
 
-## 正文摘要
+**Harness 思维本质**：给 AI 一个已有的实现作为参照，让它照着复刻，而非凭空创造
 
-### 一、核心理念：Harness 思维
+**Harness 四原则**：
+| 原则 | 说明 |
+|------|------|
+| 找相似实现 | 在代码库中找到功能最相似的已有实现作为参照 |
+| 复用优先 | 能复用的组件、接口封装、数据结构直接复用 |
+| 模仿着复制 | 哪怕"抄一份改一改"，也比用新方式写好 |
+| 约束生成范围 | 在提示词中明确指定参考文件、参考接口 |
 
-全栈 AI 开发最大的坑是让 AI 从零写代码——生成的"外星代码"风格不统一、复用率低、Review 成本反而更高。Harness 思维的核心是给 AI 一个模仿对象：找代码库中最相似的已有实现，复用现有组件和数据结构，在提示词中明确指定参考文件和接口。例如实现"结束语"功能时参照"场景欢迎语"的前后端完整链路，复用 `greetingExtendInfo` 的数据结构新建 `closingExtendInfo`。约束越精准，代码可用性越高。
+** Harness 提示词示例**：
+```
+推荐（Harness 约束）：请参照现有"场景欢迎语"功能（后端接口 /api/v1/feature/list，前端入口 FeatureTable/index.tsx:53-58）实现"结束语"功能。数据结构、分层方式、命名风格都保持一致。新增场景 code：categoryCode = "SCENARIO_CLOSING"
+```
 
-### 二、全栈工作区搭建与 Codebase Indexing
+## 全栈工作区搭建
 
-前后端代码分布在两个独立仓库时，AI 容易生成字段对不上的代码。将前后端放在同一个工作区有三个好处：Cursor 的 Codebase Indexing 对工作区所有代码建立语义索引，AI 能跨仓库理解代码关系；上下文完整，接口字段自然对齐；SDD 文档集中管理。文章还对比了 Cursor 和 Claude Code 的差异——Cursor 支持语义索引、代码引用便捷、生成速度极快，适合快速迭代；Claude Code 依赖模型自身能力、支持 Subagent 机制，适合长链路复杂任务。
+**为什么需要多仓工作区**：
+- AI 生成后端接口时能看前端调用方式，生成前端代码时能看后端返回结构
+- Codebase Indexing 覆盖两侧代码，接口字段自然对齐
+- SDD 文档集中管理，便于接口契约对齐
 
-### 三、SDD 驱动的全栈代码生成流程
+**Cursor vs Claude Code 对比**：
+| 功能 | Cursor | Claude Code |
+|------|--------|-------------|
+| 语义索引 | grep + 代码段语义相似度 | 仅 grep |
+| 代码生成速度 | 极速（1-3 分钟） | 中速（3-30 分钟） |
+| 多 Agent | 默认开启（多 Tab 并行） | 需手动注册 Subagent |
+| 费率模型 | 失败任务不收费 | 失败任务耗时且耗 token |
+| 会话恢复 | 仅当前项目 | 全局会话记录 |
 
-全栈 SDD 的特殊之处在于需要生成前后端各一份文档，接口契约必须严格对应。文章给出了经过验证的提示词模板，核心要素包括：让 AI `cd` 到对应目录创建 SDD 文件、明确"生成两份"、暗示后续多 Agent 并行、让 AI 先确认细节再生成。前端需求点清单需给出完整的 UI 细节（组件状态、字段约束、交互逻辑），后端需求点清单需提前暴露模糊的设计问题（主键设计、优先级自增逻辑、排序高效更新方案等）让 AI 在写 SDD 前先回答。产出包括 proposal.md、spec.md、tasks.md 等，配合 `openspec-*` 系列指令完成从提案到归档的全流程。
+## SDD 驱动的全栈代码生成
 
-### 四、多 Agent 协作
+**全栈 SDD 特殊之处**：生成两份 SDD 文档（前端 + 后端），接口契约必须严格对齐
 
-SDD 文档生成后，前后端代码生成相互独立，天然适合并行。Cursor 中可利用多 Tab 分别负责前端和后端代码生成，互不阻塞。Claude Code 提供 Subagent 机制，支持两种模式：普通 Subagent（只向主 Agent 汇报）和 Team 模式（子 Agent 之间可直接沟通）。实践建议包括：SDD 先行确保接口契约对齐、一个 Agent 一个职责、接口契约作为桥梁、分阶段验证。
+**SDD 文档产出**：
+- 前端：proposal.md（需求提案）+ spec.md（技术规格）+ tasks.md（任务拆分）
+- 后端：proposal.md + spec.md + design.md（详细设计）+ tasks.md
 
-### 五、前后端联调：Mock 数据与分阶段验证
+**全栈 SDD 提示词模板**：
+```
+这是一个前后端全栈开发工作区，需要你设计技术接口方案，同时开发前后端项目；
+首先你需要 cd 到对应前后端应用目录中，创建 sdd 文件；
+需要生成两份 sdd 文档，之后启动两个 agent 分别实现；
+在生成之前，如果需要确认某些细节，你应当先确认后生成 sdd 文档。
+```
 
-推荐三阶段分离验证而非直接联调：阶段一用 Mock 数据验证前端 UI 逻辑（Mock 数据需与后端 SDD 字段完全一致，覆盖边界场景）；阶段二后端 `mvn clean compile` 编译验证；阶段三前后端联调，前端连接测试后端接口进行端到端验证。这样前后端问题可提前分别发现和修复，避免联调阶段才暴露。
+## 多 Agent 协作
 
-### 六、警惕 SDD 陷阱
+**为什么需要多 Agent**：前端 SDD 和后端 SDD 生成完毕后，前后端代码生成工作相互独立，天然适合并行执行
 
-SDD 描述的是"技术上怎么实现"，而非"业务上所有的行为"。AI 在模仿参考代码时会自动复刻隐性功能——变量/表单清除、数据格式转换、默认值补齐等逻辑可能被悄悄实现而未写入文档。这些隐性功能可能正是需要的，也可能不符合当前需求，问题在于开发者不知道它们的存在。建议测试在 SDD Review、代码 Review 和联调测试三个阶段分别关注接口契约完整性、隐性功能识别和边界场景覆盖。
+**Cursor 多 Agent**：Tab 1 负责前端，Tab 2 负责后端，两个 Agent 同时运行互不阻塞
+
+**Claude Code Subagent 配置**：
+```json
+{
+  "description": "前端代码生成专家",
+  "tools": ["Read", "Edit", "Write", "Bash"],
+  "permissionMode": "bypass",
+  "model": "sonnet",
+  "skills": ["前端编码规范"]
+}
+```
+
+**全栈开发场景 Subagent 分配**：
+- Subagent 1：读取前端 SDD，生成前端代码
+- Subagent 2：读取后端 SDD，生成后端代码
+- Subagent 3（可选）：生成接口 Mock 数据
+
+## 三阶段验证策略
+
+| 阶段 | 内容 | 目标 |
+|------|------|------|
+| 阶段 1 | 前端代码 + Mock 数据 → 本地跑通页面交互 | 验证 UI 逻辑 |
+| 阶段 2 | 后端代码 → mvn clean compile → 部署测试环境 | 验证代码可编译 |
+| 阶段 3 | 前端连接测试后端接口 → 端到端验证 | 验证完整链路 |
+
+**Mock 数据要点**：字段名/类型必须与后端 SDD 完全一致；参考已有接口真实返回数据；覆盖边界场景
+
+## SDD 陷阱：隐性功能
+
+**问题**：AI 模仿参考代码生成新代码时，会自动复刻很多隐性功能（未写进 SDD 但已实现）
+
+**隐性功能示例**：
+- 前端：关闭弹窗时清空表单字段（`form.resetFields()`）
+- 后端：永久有效时自动清除开始/结束日期
+- 后端：优先级自动递增逻辑
+
+**测试介入建议**：
+- SDD Review 阶段：关注接口契约是否完整
+- Code Review 阶段：对照 SDD 文档和实际代码差异，寻找隐性功能
+- 联调测试阶段：不要只测 happy path，覆盖边界场景和隐性行为
+
+## 实践效益
+
+- **采纳率提升**：工作区模式把项目需求上下文放一起，Cursor 索引能力进一步提高采纳率和功能完整性
+- **耗时降低 50%+**：前后端 2+4 人日需求压缩至 3 人日（含环境准备、踩坑、联调自测）
+- **调试不依赖阻塞**：前端可 mock 数据自测；后端支持远程调试
+- **AI 全栈学习成本骤降**：只需掌握入门级前后端知识即可介入简单全栈需求
 
 ## 相关页面
+
 - [[Harness-Engineering]]
 - [[Spec驱动开发]]
-- [[Agentic-CI-CD]]
-- [[Claude-Managed-Agents]]
-- [[Skills]]
-- [[Agent-Memory框架]]
-- [[Sandbox]]
-- [[MCP]]
+- [[Cursor]]
