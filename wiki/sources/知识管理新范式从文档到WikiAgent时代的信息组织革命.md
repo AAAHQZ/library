@@ -5,7 +5,7 @@ date: 2026-04-21
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/R9zhDXvwYO7qjabVmd2HaA
+summary: "原文链接：https://mp.weixin.qq.com/s/R9zhDXvwYO7qjabVmd2HaA"
 ---
 
 # 知识管理新范式从文档到WikiAgent时代的信息组织革命

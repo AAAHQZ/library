@@ -5,7 +5,7 @@ date: 2026-04-23
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/-U14OuMOUUufO1uy6_iEZA
+summary: "原文链接：https://mp.weixin.qq.com/s/-U14OuMOUUufO1uy6_iEZA"
 ---
 
 # Anthropic工程博客：25词system prompt如何摧毁Claude Code

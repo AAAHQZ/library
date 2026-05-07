@@ -5,7 +5,7 @@ date: 2026-04-21
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/-elbJezcr_58OpPaAS7Sdg
+summary: "原文链接：https://mp.weixin.qq.com/s/-elbJezcr_58OpPaAS7Sdg"
 ---
 
 # 零一智源superpowers底层实现解析

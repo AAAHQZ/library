@@ -5,7 +5,7 @@ date: 2026-05-05
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/JLGulYq3QGbj4euuyfmJdw
+summary: "原文链接：https://mp.weixin.qq.com/s/JLGulYq3QGbj4euuyfmJdw"
 ---
 
 # 阿里云的P0故障和PaaS产品的特性

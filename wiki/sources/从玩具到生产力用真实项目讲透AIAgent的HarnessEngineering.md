@@ -5,7 +5,7 @@ date: 2026-05-05
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/xLdQ9Z3n3SNwaQtmrM28FA
+summary: "原文链接：https://mp.weixin.qq.com/s/xLdQ9Z3n3SNwaQtmrM28FA"
 ---
 
 # 从玩具到生产力用真实项目讲透AIAgent的HarnessEngineering

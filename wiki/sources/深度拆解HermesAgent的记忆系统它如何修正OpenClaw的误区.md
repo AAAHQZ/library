@@ -5,7 +5,7 @@ date: 2026-05-05
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/Oq33YStOaYOdzQ7wXHii9w
+summary: "原文链接：https://mp.weixin.qq.com/s/Oq33YStOaYOdzQ7wXHii9w"
 ---
 
 # 深度拆解HermesAgent的记忆系统它如何修正OpenClaw的误区

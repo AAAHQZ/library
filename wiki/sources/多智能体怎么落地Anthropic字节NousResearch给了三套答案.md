@@ -5,7 +5,7 @@ date: 2026-04-22
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/hzfVCE18PzpFs54-bACA_g
+summary: "原文链接：https://mp.weixin.qq.com/s/hzfVCE18PzpFs54-bACA_g"
 ---
 
 # 多智能体怎么落地Anthropic字节NousResearch给了三套答案

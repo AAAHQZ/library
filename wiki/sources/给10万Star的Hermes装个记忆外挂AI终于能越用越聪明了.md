@@ -5,7 +5,7 @@ date: 2026-05-05
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/RoAFEKEetZ9mnmVKwrS4jg
+summary: "原文链接：https://mp.weixin.qq.com/s/RoAFEKEetZ9mnmVKwrS4jg"
 ---
 
 # 给10万Star的Hermes装个记忆外挂AI终于能越用越聪明了

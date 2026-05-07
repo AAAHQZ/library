@@ -5,7 +5,7 @@ date: 2026-05-05
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/ocu4ZA__7OW-svkGdRIogQ
+summary: "原文链接：https://mp.weixin.qq.com/s/ocu4ZA__7OW-svkGdRIogQ"
 ---
 
 # 托管Agent执行循环只是起点AgentRun托管的更是企业AI生产全链路

@@ -5,7 +5,7 @@ date: 2026-04-20
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/a0k2Va3gbfYRq-GyJmeipA
+summary: "原文链接：https://mp.weixin.qq.com/s/a0k2Va3gbfYRq-GyJmeipA"
 ---
 
 # 墙与门Agent的边界体验

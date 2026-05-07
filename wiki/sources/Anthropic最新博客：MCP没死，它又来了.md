@@ -5,7 +5,7 @@ date: 2026-04-23
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/Sz2hzXiNCyf1YNzPbeUo5Q
+summary: "原文链接：https://mp.weixin.qq.com/s/Sz2hzXiNCyf1YNzPbeUo5Q"
 ---
 
 # Anthropic最新博客：MCP没死，它又来了

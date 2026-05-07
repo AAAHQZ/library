@@ -5,7 +5,7 @@ date: 2026-05-05
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/77OguM-HsX8V9WvNLWvlSw
+summary: "原文链接：https://mp.weixin.qq.com/s/77OguM-HsX8V9WvNLWvlSw"
 ---
 
 # 从第一性原理思考AgenticEngineering

@@ -5,7 +5,7 @@ date: 2026-05-05
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/80tg7h2zVX80TOiQ9hgInA
+summary: "原文链接：https://mp.weixin.qq.com/s/80tg7h2zVX80TOiQ9hgInA"
 ---
 
 # 什么是pi下一代Agent架构

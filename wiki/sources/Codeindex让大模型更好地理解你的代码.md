@@ -5,7 +5,7 @@ date: 2026-04-24
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/F0dqp08Qas_aSui4eVplCA
+summary: "原文链接：https://mp.weixin.qq.com/s/F0dqp08Qas_aSui4eVplCA"
 ---
 
 # Codeindex让大模型更好地理解你的代码

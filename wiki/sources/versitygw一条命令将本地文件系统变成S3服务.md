@@ -5,7 +5,7 @@ date: 2026-05-05
 author: 
 published: 
 references: []
-summary: > 原文链接：https://mp.weixin.qq.com/s/2PLFikImGjccdyIi9uisxw
+summary: "原文链接：https://mp.weixin.qq.com/s/2PLFikImGjccdyIi9uisxw"
 ---
 
 # versitygw一条命令将本地文件系统变成S3服务
