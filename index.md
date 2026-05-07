@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：library
-- 素材总数：47
-- Wiki 页面总数：101
+- 素材总数：48
+- Wiki 页面总数：102
 
 ---
 
@@ -91,6 +91,7 @@
 - 2026-04-21 [[AIAgent架构设计一记忆系统设计|sources/2026-04-21-AIAgent架构设计一记忆系统设计]] - AI Agent、记忆系统、架构设计
 - 2026-04-20 [[墙与门Agent的边界体验|sources/2026-04-20-墙与门Agent的边界体验]] - Agent、UX设计、边界体验
 - 2026-04-15 [[深度解析HarnessEngineering|sources/2026-04-15-深度解析HarnessEngineering]] - Harness、Anthropic、Agent工程
+- 2026-04-15 [[你以为在写Spec其实在绕路写代码|sources/2026-04-15-你以为在写Spec其实在绕路写代码]] - Spec Driven Development、瀑布流、规格陷阱、工程判断
 - 2026-04-15 [[为什么你的AI优先战略可能大错特错|sources/2026-04-15-为什么你的AI优先战略可能大错特错]] - AI战略、组织管理、技术采用曲线
 - 2026-04-15 [[Agent隔离安全|sources/2026-04-15-Agent隔离安全]] - Agent安全、沙箱、Landlock
 - 2026-05-06 [[sources/2026-05-06-基于Harness+SDD+多仓管理模式的AI全栈开发实践|基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践]] - Harness Engineering、SDD、多Agent、全栈开发、AI编程
