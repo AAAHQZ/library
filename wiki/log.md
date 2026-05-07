@@ -1,0 +1,21 @@
+
+## 2026-05-07 Batch Ingest (18 articles)
+
+- [[sources/Anthropic工程博客：25词system prompt如何摧毁Claude Code|Anthropic工程博客：25词system prompt如何摧毁Claude Code]] - Claude Code postmortem
+- [[sources/Anthropic最新博客：MCP没死它又来了|Anthropic最新博客：MCP没死，它又来了]] - MCP status update
+- [[sources/Anthropic的Harness哲学把Agent当牲口而非宠物|Anthropic的Harness哲学：把Agent当牲口而非宠物]] - Harness philosophy
+- [[sources/Codeindex让大模型更好地理解你的代码|Codeindex让大模型更好地理解你的代码]] - Codebase indexing
+- [[sources/versitygw一条命令将本地文件系统变成S3服务|versitygw一条命令将本地文件系统变成S3服务]] - S3 gateway
+- [[sources/什么是pi下一代Agent架构|什么是pi下一代Agent架构]] - Pi architecture
+- [[sources/从玩具到生产力用真实项目讲透AIAgent的HarnessEngineering|从玩具到生产力讲透HarnessEngineering]] - Warp harness case
+- [[sources/从第一性原理思考AgenticEngineering|从第一性原理思考AgenticEngineering]] - First principles
+- [[sources/墙与门Agent的边界体验|墙与门：Agent的边界体验]] - Agent UX
+- [[sources/多智能体怎么落地Anthropic字节NousResearch给了三套答案|多智能体落地三套答案]] - Multi-agent
+- [[sources/当AI把开发速度干到10倍但为什么交付还是慢得不行|当AI把开发速度干到10倍]] - Delivery paradox
+- [[sources/托管Agent执行循环只是起点AgentRun托管的更是企业AI生产全链路|AgentRun托管企业AI全链路]] - Enterprise agent
+- [[sources/深度拆解HermesAgent的记忆系统它如何修正OpenClaw的误区|深度拆解Hermes记忆系统]] - Hermes memory
+- [[sources/知识管理新范式从文档到WikiAgent时代的信息组织革命|知识管理新范式]] - Knowledge management
+- [[sources/研发团队没有战斗力怎么解|研发团队没有战斗力怎么解]] - Team management
+- [[sources/给10万Star的Hermes装个记忆外挂AI终于能越用越聪明了|给Hermes装记忆外挂]] - Hermes external memory
+- [[sources/阿里云的P0故障和PaaS产品的特性|阿里云P0故障和PaaS特性]] - Alibaba cloud
+- [[sources/零一智源superpowers底层实现解析|零一智源superpowers解析]] - superpowers tools

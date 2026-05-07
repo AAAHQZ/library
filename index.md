@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：library
-- 素材总数：48
-- Wiki 页面总数：102
+- 素材总数：65
+- Wiki 页面总数：119
 
 ---
 
@@ -97,6 +97,25 @@
 - 2026-05-06 [[sources/2026-05-06-基于Harness+SDD+多仓管理模式的AI全栈开发实践|基于 Harness + SDD + 多仓管理模式的 AI 全栈开发实践]] - Harness Engineering、SDD、多Agent、全栈开发、AI编程
 
 ---
+
+- 2026-04-23 [[sources/Anthropic工程博客：25词system prompt如何摧毁Claude Code|Anthropic工程博客：25词system prompt如何摧毁Claude Code]] - Claude Code、Anthropic、system prompt、postmortem
+- 2026-04-23 [[sources/Anthropic最新博客：MCP没死，它又来了|Anthropic最新博客：MCP没死，它又来了]] - MCP、Anthropic、协议、工具调用
+- 2026-04-24 [[sources/Codeindex让大模型更好地理解你的代码|Codeindex让大模型更好地理解你的代码]] - Codebase Indexing、RAG、代码理解
+- 2026-05-05 [[sources/versitygw一条命令将本地文件系统变成S3服务|versitygw一条命令将本地文件系统变成S3服务]] - S3、存储、vsitygw、开源
+- 2026-05-05 [[sources/什么是pi下一代Agent架构|什么是pi下一代Agent架构]] - Pi、Agent架构、多Agent
+- 2026-05-05 [[sources/从玩具到生产力用真实项目讲透AIAgent的HarnessEngineering|从玩具到生产力用真实项目讲透AIAgent的HarnessEngineering]] - Harness Engineering、真实项目、实践
+- 2026-05-05 [[sources/从第一性原理思考AgenticEngineering|从第一性原理思考AgenticEngineering]] - Agentic Engineering、第一性原理
+- 2026-04-20 [[sources/墙与门Agent的边界体验|墙与门：Agent 的边界体验]] - Agent体验、用户界面、人机交互
+- 2026-04-22 [[sources/多智能体怎么落地Anthropic字节NousResearch给了三套答案|多智能体怎么落地Anthropic字节NousResearch给了三套答案]] - 多智能体、Anthropic、字节、NousResearch
+- 2026-04-29 [[sources/当AI把开发速度干到10倍但为什么交付还是慢得不行|当AI把开发速度干到10倍但为什么交付还是慢得不行]] - AI提效、交付、组织管理
+- 2026-05-05 [[sources/托管Agent执行循环只是起点AgentRun托管的更是企业AI生产全链路|托管Agent执行循环只是起点AgentRun托管的更是企业AI生产全链路]] - AgentRun、企业AI、Agent执行循环
+- 2026-05-05 [[sources/深度拆解HermesAgent的记忆系统它如何修正OpenClaw的误区|深度拆解HermesAgent的记忆系统它如何修正OpenClaw的误区]] - Hermes Agent、记忆系统、OpenClaw
+- 2026-04-21 [[sources/知识管理新范式从文档到WikiAgent时代的信息组织革命|知识管理新范式从文档到WikiAgent时代的信息组织革命]] - 知识管理、Wiki、Agent
+- 2026-04-22 [[sources/研发团队没有战斗力怎么解|研发团队没有战斗力怎么解]] - 研发团队、管理、战斗力
+- 2026-05-05 [[sources/给10万Star的Hermes装个记忆外挂AI终于能越用越聪明了|给10万Star的Hermes装个记忆外挂AI终于能越用越聪明了]] - Hermes、记忆外挂、外部记忆
+- 2026-05-05 [[sources/阿里云的P0故障和PaaS产品的特性|阿里云的P0故障和PaaS产品的特性]] - 阿里云、P0故障、PaaS
+- 2026-04-21 [[sources/零一智源superpowers底层实现解析|零一智源superpowers底层实现解析]] - superpowers、零一智源、Agent工具
+
 
 ## 对比分析
 
