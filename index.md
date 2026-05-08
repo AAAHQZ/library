@@ -1,20 +1,20 @@
 # 知识库索引
 
-> 最后更新：2026-05-07
+> 最后更新：2026-05-08
 
 ---
 
 ## 概览
 
 - 主题：library
-- 素材总数：67
-- Wiki 页面总数：123
+- 素材总数：69
+- Wiki 页面总数：134
 
 ---
 
 ## 实体页
 
-> 人物、组织、概念、工具等（共 53 个）
+> 人物、组织、概念、工具等（共 64 个）
 
 - [[AI-Agent]] · [[Hermes-Agent]] · [[Harness]] · [[Harness-Engineering]]
 - [[Session]] · [[Sandbox]] · [[Skills]] · [[Vault-Proxy]]
@@ -31,16 +31,21 @@
 - [[AI流量分析]] · [[Pigsty]] · [[Cloudflare]]
 - [[Task-Driven]] · [[Goal-Driven]] · [[24h-打工人]]
 - [[Ashby-必要多样性定律]] · [[Platform-Engineering]]
+- [[凶凶熊]] · [[有价值但没位置]] · [[讲清问题]]
+- [[控制论]] · [[W.Ross-Ashby]]
+- [[Dijkstra]] · [[EWD-667]] · [[自然语言编程]] · [[形式化思维]]
+- [[界面宽度]] · [[形式符号]] · [[Structured-Output]] · [[Prompt-Engineering]]
 
 ---
 
 ## 主题页
 
-> 研究主题、知识领域（共 3 个）
+> 研究主题、知识领域（共 4 个）
 
 - [[AI-Agent工程实践]]
 - [[平台工程]]
 - [[研发效能管理]]
+- [[技术人职业发展]]
 
 ---
 
@@ -48,7 +53,13 @@
 
 > 每个消化过的素材都有一篇摘要
 
+- 2026-05-08 [[sources/2026-05-07-自然语言不适合编程Dijkstra半个世纪前的判断今天依然成立|自然语言不适合编程——Dijkstra 半个世纪前的判断，今天依然成立]] - Dijkstra、EWD667、自然语言编程、形式化思维、界面宽度、Prompt Engineering、Harness Engineering、Vibe Coding、幻觉
+
 - 2026-05-07 [[sources/2026-05-07-告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践|告别"氛围编程"：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践]] - SDD、Harness Engineering、Qoder、Vibe Coding、HITL、AI编程
+
+- 2026-05-08 [[sources/2026-05-07-技术人真正的卡点有价值但没位置|技术人真正的卡点：有价值，但没位置]] - 技术人职业发展、有价值但没位置、讲清问题、执行层陷阱
+
+- 2026-05-08 [[sources/2026-05-07-GUI型DevOps平台的天花板，Ashby在1956年就画好了|GUI 型 DevOps 平台的天花板，Ashby 在 1956 年就画好了]] - 控制论、Ashby、必要多样性定律、Platform Engineering、GUI型DevOps、语义层
 
 - 2026-05-07 [[sources/2026-05-07-十年老技术开发的AIAgent探索之路|十年老技术开发的 AI Agent 探索之路]] - AI Agent、SDD、Harness Engineering、实践分享、Goal-Driven
 - 2026-05-07 [[sources/2026-05-07-三个月翻100倍Agent时代的流量画像|三个月翻 100 倍：Agent 时代的流量画像]] - AI Agent、流量分析、开源、内容分发
@@ -100,6 +111,7 @@
 
 ---
 - 2026-04-24 [[sources/2026-04-24-Codeindex让大模型更好地理解你的代码|Codeindex让大模型更好地理解你的代码]] - 代码索引、语义理解
+- 2026-05-08 [[sources/2026-05-08-codeindex-knowledge-graph|Codeindex知识图谱：能力-应用-基础设施拓扑视图]] - 知识图谱、可视化、径向拓扑
 - 2026-04-23 [[sources/2026-04-23-Claude-Code质量退化|ChatGPT出圈：2026年4月Claude Code质量争议深度复盘]] - Claude Code、Anthropic、system prompt、postmortem
 - 2026-04-23 [[sources/2026-04-23-MCP没死|MCP没死：Anthropic最新博客解读]] - MCP、Anthropic、CLI、Agent
 - 2026-05-05 [[sources/versitygw一条命令将本地文件系统变成S3服务|versitygw一条命令将本地文件系统变成S3服务]] - S3、存储、vsitygw、开源
@@ -124,6 +136,7 @@
 
 （暂无）
 
+- 2026-05-08 [[sources/2026-05-07-Agent开发范式演进从环境工程出发简化多源实时上下文|Agent 开发范式演进：从环境工程出发，"简化"多源实时上下文]] - Agent、环境工程、Context Engineering、多源上下文、Agent 开发范式
 ---
 
 ## 综合分析

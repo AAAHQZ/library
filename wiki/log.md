@@ -1,4 +1,9 @@
 
+## 2026-05-08 Ingest (2 articles)
+
+- [[sources/2026-05-07-GUI型DevOps平台的天花板，Ashby在1956年就画好了|GUI型DevOps平台的天花板]] - Ashby必要多样性定律、控制论、Platform Engineering、语义层
+- [[sources/2026-05-08-codeindex-knowledge-graph|Codeindex知识图谱]] - Codeindex 知识图谱可视化方案、径向拓扑、能力-应用-基础设施三层映射
+
 ## 2026-05-07 Batch Ingest (18 articles)
 
 - [[sources/Anthropic工程博客：25词system prompt如何摧毁Claude Code|Anthropic工程博客：25词system prompt如何摧毁Claude Code]] - Claude Code postmortem

@@ -247,13 +247,33 @@
     },
     "raw/wechat/2026-05-07-告别“氛围编程”：基于_Harness_治理和_SDD_的团队级_AI_研发范式演进与实践.md": {
       "hash": "sha256:24a71538b24be29cee5c508a4b9aa8a366ca6291052aceb958ef1a1812aa51b8",
-      "ingested_at": "2026-05-07T13:04:59Z",
-      "source_page": "sources/2026-05-07-告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践"
+      "ingested_at": "2026-05-08T01:25:07Z",
+      "source_page": "wiki/sources/2026-05-07-告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践.md"
     },
     "raw/wechat/2026-05-07-GUI_型_DevOps_平台的天花板，Ashby_在_1956_年就画好了.md": {
       "hash": "sha256:17bdfae521c28c01dd66494a431202a1f200489eac77872060c56a611c2a6b6f",
-      "ingested_at": "2026-05-07T15:14:03Z",
-      "source_page": "sources/2026-05-07-GUI型DevOps平台的天花板，Ashby在1956年就画好了"
+      "ingested_at": "2026-05-08T01:10:52Z",
+      "source_page": "wiki/sources/2026-05-07-GUI型DevOps平台的天花板，Ashby在1956年就画好了.md"
+    },
+    "raw/wechat/2026-05-07-技术人真正的卡点：有价值，但没位置.md": {
+      "hash": "sha256:b371300ec4cabcb02bd2cc720c21da561d95640bd835cf0cde277e69c0130b0f",
+      "ingested_at": "2026-05-08T01:05:48Z",
+      "source_page": "wiki/sources/2026-05-07-技术人真正的卡点有价值但没位置.md"
+    },
+    "raw/codeindex-knowledge-graph/plan.md": {
+      "hash": "sha256:44eeef5a4514794ff8550a9b90c7624790c13650478216b12bcc205819dc43c3",
+      "ingested_at": "2026-05-08T01:15:45Z",
+      "source_page": "wiki/sources/2026-05-08-codeindex-knowledge-graph.md"
+    },
+    "raw/wechat/2026-05-07-自然语言不适合编程——Dijkstra_半个世纪前的判断,今天依然成立.md": {
+      "hash": "sha256:d3919adf117173946ed7d376884ca2dced08eba35542c513a7e8033448b9be33",
+      "ingested_at": "2026-05-08T01:21:09Z",
+      "source_page": "wiki/sources/2026-05-07-自然语言不适合编程Dijkstra半个世纪前的判断今天依然成立.md"
+    },
+    "raw/wechat/2026-05-07-Agent_开发范式演进：从环境工程出发，“简化”多源实时上下文.md": {
+      "hash": "sha256:07e4b1949ddf502323e3db0d3218b8921cca1dbda90b81f11aa3ccf78c85e5bd",
+      "ingested_at": "2026-05-08T01:23:57Z",
+      "source_page": "wiki/sources/2026-05-07-Agent开发范式演进从环境工程出发简化多源实时上下文.md"
     }
   }
 }

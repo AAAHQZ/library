@@ -7,7 +7,7 @@ tags:
   - 架构
 type: entity
 confidence: EXTRACTED
-source: 深度解析HarnessEngineering, 告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践
+source: 深度解析HarnessEngineering, 告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践, 自然语言不适合编程Dijkstra半个世纪前的判断今天依然成立
 ---
 
 # Harness Engineering
@@ -177,6 +177,23 @@ Prompt Engineering  →  Context Engineering  →  Harness Engineering
 |------|------|
 | AgentOS（内核） | 调度、隔离、资源管理 |
 | Harness（用户态 shell/daemon） | 任务分解、状态续航、验证反馈、人机交接 |
+
+## Dijkstra 界面宽度理论根基
+
+Harness Engineering 的理论根基可以追溯到 Dijkstra 在 EWD 667（1978）中提出的界面宽度理论：
+
+- **自然语言是宽界面**：信息量大、歧义多，两侧（人和机器）都要付出额外代价
+- **形式语言是窄界面**：信息量小、歧义少，协作成本低
+- **工程实践中偏好窄接口**
+
+在 AI 时代，消除歧义这件事已从「编译器与程序员之间」迁徙到「Prompt 与 Harness 之间」：
+
+| 时代 | 消除歧义的主体 | 手段 |
+|------|--------------|------|
+| 传统编程 | 编译器 + 编程语言语法规则 | Pascal、C、Haskell 等 |
+| LLM 时代 | Prompt + Harness | Structured Output、Tool Schema、Eval Pipeline、Spec 文档 |
+
+**核心洞见**：所有认真做事的团队都在想方设法把自然语言「变回」形式化的东西。Harness 设计者每天在做的事，本质上与 Dijkstra 当年做的事是同一件——在自然语言的泥潭中，一点点、审慎地收窄那个界面。
 
 ## 判断与展望
 
