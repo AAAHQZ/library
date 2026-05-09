@@ -1,14 +1,14 @@
 # 知识库索引
 
-> 最后更新：2026-05-08
+> 最后更新：2026-05-09
 
 ---
 
 ## 概览
 
 - 主题：library
-- 素材总数：69
-- Wiki 页面总数：134
+- 素材总数：70
+- Wiki 页面总数：135
 
 ---
 
@@ -53,7 +53,9 @@
 
 > 每个消化过的素材都有一篇摘要
 
-- 2026-05-08 [[sources/2026-05-07-自然语言不适合编程Dijkstra半个世纪前的判断今天依然成立|自然语言不适合编程——Dijkstra 半个世纪前的判断，今天依然成立]] - Dijkstra、EWD667、自然语言编程、形式化思维、界面宽度、Prompt Engineering、Harness Engineering、Vibe Coding、幻觉
+|- 2026-05-09 [[sources/2026-05-09-不敢谈结果的技术负责人迟早会被边缘化|不敢谈结果的技术负责人，迟早会被边缘化]] - 技术人职业发展、研发团队管理、价值锚定、技术决策闭环、结果导向架构治理
+
+|- 2026-05-08 [[sources/2026-05-07-自然语言不适合编程Dijkstra半个世纪前的判断今天依然成立|自然语言不适合编程——Dijkstra 半个世纪前的判断，今天依然成立]] - Dijkstra、EWD667、自然语言编程、形式化思维、界面宽度、Prompt Engineering、Harness Engineering、Vibe Coding、幻觉
 
 - 2026-05-07 [[sources/2026-05-07-告别氛围编程基于Harness治理和SDD的团队级AI研发范式演进与实践|告别"氛围编程"：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践]] - SDD、Harness Engineering、Qoder、Vibe Coding、HITL、AI编程
 

@@ -274,6 +274,14 @@
       "hash": "sha256:07e4b1949ddf502323e3db0d3218b8921cca1dbda90b81f11aa3ccf78c85e5bd",
       "ingested_at": "2026-05-08T01:23:57Z",
       "source_page": "wiki/sources/2026-05-07-Agent开发范式演进从环境工程出发简化多源实时上下文.md"
+    },
+    "raw/wechat/2026-05-09-不敢谈结果的技术负责人，迟早会被边缘化.md": {
+      "hash": "sha256:8d64076d1906e7c81eb90dffbad61d1928cc13a8525a0cf56f0077fbe3ab662b",
+      "ingested_at": "2026-05-09T02:48:09Z",
+      "source_page": "wiki/sources/2026-05-09-不敢谈结果的技术负责人迟早会被边缘化.md"
     }
+  },
+  "stats": {
+    "total_sources": 56
   }
 }
