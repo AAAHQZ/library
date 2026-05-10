@@ -279,6 +279,46 @@
       "hash": "sha256:8d64076d1906e7c81eb90dffbad61d1928cc13a8525a0cf56f0077fbe3ab662b",
       "ingested_at": "2026-05-09T02:48:09Z",
       "source_page": "wiki/sources/2026-05-09-不敢谈结果的技术负责人迟早会被边缘化.md"
+    },
+    "raw/wechat/2026-05-10-Vibe_Coding_时代，每个项目都需要「意图文件」.md": {
+      "hash": "sha256:c30324becb113e0eb69b4b35a50d31bb96f44358b39f9a817375d71d3beb636e",
+      "ingested_at": "2026-05-10T10:44:14Z",
+      "source_page": "wiki/sources/2026-05-10-Vibe_Coding时代，每个项目都需要意图文件.md"
+    },
+    "raw/wechat/2026-05-09-品味负债：Harness狂奔后的隐形利息.md": {
+      "hash": "sha256:e9468f31283e066bad20b675044c71082949c4462ca3fadc449ca1e1fb2f4592",
+      "ingested_at": "2026-05-10T10:54:42Z",
+      "source_page": "wiki/sources/2026-05-09-品味负债：Harness狂奔后的隐形利息.md"
+    },
+    "raw/wechat/2026-05-10-Markdown_统治_AI_输出三年，终于要被自己人推翻：Agent_产出物进入_HTML_时代.md": {
+      "hash": "sha256:b388b5dcdb4692e1a38f76e0051186c6e0d7e7a153990fdcd6783c0a3bf6834a",
+      "ingested_at": "2026-05-10T10:54:42Z",
+      "source_page": "wiki/sources/2026-05-10-Markdown_统治_AI_输出三年，终于要被自己人推翻：Agent_产出物进入_HTML_时代.md"
+    },
+    "raw/wechat/2026-05-10-Harness时代，谁在驾驭AI这匹野马？.md": {
+      "hash": "sha256:4ec81885c0f472b6d7dfd766a859807ad454e6a54e83f3dc07bd676bc89ef966",
+      "ingested_at": "2026-05-10T11:17:23Z",
+      "source_page": "wiki/sources/2026-05-10-Harness时代，谁在驾驭AI这匹野马？.md"
+    },
+    "raw/wechat/2026-05-10-味觉：Harness时代，最后的工程护城河.md": {
+      "hash": "sha256:662fff295c35d0191e2ec84352adff9c0372b1c920974c549671f5d992f113a9",
+      "ingested_at": "2026-05-10T11:17:23Z",
+      "source_page": "wiki/sources/2026-05-10-味觉：Harness时代，最后的工程护城河.md"
+    },
+    "raw/wechat/2026-05-10-歪脖抠腚，低卧扑食.md": {
+      "hash": "sha256:2e43c9dcc8f794c8eb32b4251626c9a17a58d9750f869e1374520b687c9b2065",
+      "ingested_at": "2026-05-10T11:17:23Z",
+      "source_page": "wiki/sources/2026-05-10-歪脖抠腚，低卧扑食.md"
+    },
+    "raw/wechat/2026-05-10-资深软件工程师可以被“蒸馏”出来吗？.md": {
+      "hash": "sha256:c3e4ab912e53d3f48f58588f5afc4a7a22370516e95174e60917dcc7e01ce0b2",
+      "ingested_at": "2026-05-10T11:17:23Z",
+      "source_page": "wiki/sources/2026-05-10-资深软件工程师可以被\"蒸馏\"出来吗？.md"
+    },
+    "raw/wechat/2026-05-10-用Agent评测思路管理AI_Coding_——_31万行代码AI重构的实践.md": {
+      "hash": "sha256:d23cb43cf899b67b0c1941471c97f8df873e9c3e2ca6f9a675b2c211d8809108",
+      "ingested_at": "2026-05-10T11:37:56Z",
+      "source_page": "wiki/sources/2026-05-10-用Agent评测思路管理AI_Coding_——_31万行代码AI重构的实践.md"
     }
   },
   "stats": {

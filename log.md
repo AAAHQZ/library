@@ -1,3 +1,37 @@
+## 2026-05-10 ingest | Vibe Coding 时代，每个项目都需要「意图文件」
+
+- 素材摘要：[[sources/2026-05-10-Vibe_Coding时代，每个项目都需要意图文件]]
+- 新建实体：[[意图文件]]
+- 更新实体：[[VibeCoding]]（追加"意图文件作为解药"章节）
+- 更新 index.md、log.md 和缓存
+
+---
+
+## 2026-05-10 batch-ingest | 用Agent评测思路管理AI Coding
+
+- 素材摘要：[[sources/2026-05-10-用Agent评测思路管理AI_Coding_——_31万行代码AI重构的实践]]
+- 更新实体：[[Harness-Engineering]]（追加"人人对齐→人机对齐"方法+Pre-PR机制+模型对抗审查）
+- 更新 index.md、log.md 和缓存
+
+---
+
+## 2026-05-10 batch-ingest | 4 篇（Harness三部曲+歪脖抠腚+蒸馏）
+
+- 素材摘要：[[sources/2026-05-10-Harness时代，谁在驾驭AI这匹野马？]]、[[sources/2026-05-10-味觉：Harness时代，最后的工程护城河]]、[[sources/2026-05-10-歪脖抠腚，低卧扑食]]、[[sources/2026-05-10-资深软件工程师可以被"蒸馏"出来吗？]]
+- 更新实体：[[Harness-Engineering]]（追加"三次工程革命""五模块""三层架构"）、[[品味负债]]（追加"味觉"正面维度）、[[VibeCoding]]（追加"DevOps作为护栏"）、[[Context-Engineering]]（追加"上下文路由器"/"拒绝的艺术"）
+- 更新 index.md、log.md 和缓存
+
+---
+
+## 2026-05-10 batch-ingest | 品味负债 + Agent 产出物进入 HTML 时代
+
+- 素材摘要：[[sources/2026-05-09-品味负债：Harness狂奔后的隐形利息]]、[[sources/2026-05-10-Markdown_统治_AI_输出三年，终于要被自己人推翻：Agent_产出物进入_HTML_时代]]
+- 新建实体：[[品味负债]]、[[产出物格式分层]]
+- 更新实体：[[Harness-Engineering]]（追加"品味负债（运行期维护成本）"章节）
+- 更新 index.md、log.md 和缓存
+
+---
+
 ## 2026-05-09 ingest | 不敢谈结果的技术负责人，迟早会被边缘化
 
 - 素材摘要：[[sources/2026-05-09-不敢谈结果的技术负责人迟早会被边缘化]]

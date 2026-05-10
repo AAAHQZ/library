@@ -7,14 +7,14 @@
 ## 概览
 
 - 主题：library
-- 素材总数：70
-- Wiki 页面总数：135
+- 素材总数：78
+- Wiki 页面总数：149
 
 ---
 
 ## 实体页
 
-> 人物、组织、概念、工具等（共 64 个）
+> 人物、组织、概念、工具等（共 67 个）
 
 - [[AI-Agent]] · [[Hermes-Agent]] · [[Harness]] · [[Harness-Engineering]]
 - [[Session]] · [[Sandbox]] · [[Skills]] · [[Vault-Proxy]]
@@ -53,6 +53,14 @@
 
 > 每个消化过的素材都有一篇摘要
 
+|- 2026-05-10 [[sources/2026-05-10-用Agent评测思路管理AI_Coding_——_31万行代码AI重构的实践|用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]] - AI Coding、Harness Engineering、人人对齐、人机对齐、AI Rule、Pre-PR、技术债重构、美团
+|- 2026-05-10 [[sources/2026-05-10-资深软件工程师可以被"蒸馏"出来吗？|资深软件工程师可以被"蒸馏"出来吗？]] - AI Agent、资深工程师、Context Engineering、职场蒸馏、Harness Engineering、暗物质
+|- 2026-05-10 [[sources/2026-05-10-歪脖抠腚，低卧扑食|歪脖抠腚，低卧扑食]] - Vibe Coding、DevOps、Harness Engineering、Agentic CI/CD、平台工程
+|- 2026-05-10 [[sources/2026-05-10-味觉：Harness时代，最后的工程护城河|味觉：Harness时代，最后的工程护城河]] - Harness Engineering、味觉、品味负债、工程品味、约束设计
+|- 2026-05-10 [[sources/2026-05-10-Harness时代，谁在驾驭AI这匹野马？|Harness时代，谁在驾驭AI这匹野马？]] - Harness Engineering、Prompt Engineering、Context Engineering、Agent架构、约束设计
+|- 2026-05-10 [[sources/2026-05-10-Markdown_统治_AI_输出三年，终于要被自己人推翻：Agent_产出物进入_HTML_时代|Markdown 统治 AI 输出三年，终于要被自己人推翻：Agent 产出物进入 HTML 时代]] - Agent 产出物、HTML、Markdown、格式分层、Anthropic、Thariq、Claude Code、Artifacts
+|- 2026-05-10 [[sources/2026-05-09-品味负债：Harness狂奔后的隐形利息|品味负债：Harness狂奔后的隐形利息]] - Harness Engineering、品味负债、约束管理、评估体系、权限管理、知识治理
+|- 2026-05-10 [[sources/2026-05-10-Vibe_Coding时代，每个项目都需要意图文件|Vibe Coding 时代，每个项目都需要「意图文件」]] - Vibe Coding、意图文件、DESIGN.md、CLAUDE.md、Agent上下文工程、Harness Engineering
 |- 2026-05-09 [[sources/2026-05-09-不敢谈结果的技术负责人迟早会被边缘化|不敢谈结果的技术负责人，迟早会被边缘化]] - 技术人职业发展、研发团队管理、价值锚定、技术决策闭环、结果导向架构治理
 
 |- 2026-05-08 [[sources/2026-05-07-自然语言不适合编程Dijkstra半个世纪前的判断今天依然成立|自然语言不适合编程——Dijkstra 半个世纪前的判断，今天依然成立]] - Dijkstra、EWD667、自然语言编程、形式化思维、界面宽度、Prompt Engineering、Harness Engineering、Vibe Coding、幻觉
