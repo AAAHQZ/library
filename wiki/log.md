@@ -1,4 +1,12 @@
 
+## 2026-05-11
+
+- 2026-05-11 [[sources/2026-05-11-Claude-Code_Harness失控_规则遵循与上下文退化 Claude-Code Harness失控：规则遵循与上下文退化]] - Claude Code、Harness、规则遵循、上下文退化、Context Anxiety、200k Ghost
+- 2026-05-11 Ingest (2 articles)
+
+- [[sources/2026-05-11-天猫新品营销技术团队AI编码实战指南（上）|天猫新品营销技术团队AI编码实战指南（上）]] - AI编码实战、需求驱动型vs工程主导型
+- [[sources/2026-05-11-如何用大模型搞垮一个团队？|如何用大模型搞垮一个团队？]] - 研发团队管理、AI滥用警示
+
 ## 2026-05-08 Ingest (2 articles)
 
 - [[sources/2026-05-07-GUI型DevOps平台的天花板，Ashby在1956年就画好了|GUI型DevOps平台的天花板]] - Ashby必要多样性定律、控制论、Platform Engineering、语义层

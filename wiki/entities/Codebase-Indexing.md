@@ -95,7 +95,8 @@ codeChunker 的关键设计：若 Class 内代码超出 chunk token 上限，对
 
 ## 相关素材
 
-- [[sources/2026-04-24-Codeindex让大模型更好地理解你的代码]] — Codeindex 工具详解，含技术架构和函数依赖图设计
+- [[sources/2026-05-11-Codeindex_·_让大模型更好地理解你的代码]] — Codeindex 2026-05-11 新版详解，含技术架构和应用场景
+- [[sources/2026-04-24-Codeindex让大模型更好地理解你的代码]] — Codeindex 早期版本，含技术架构和函数依赖图设计
 - [[sources/2026-05-06-基于Harness+SDD+多仓管理模式的AI全栈开发实践]] — Cursor Codebase Indexing 在全栈开发中的实践价值
 
 ## 标签

@@ -1,14 +1,14 @@
 # 知识库索引
 
-> 最后更新：2026-05-09
+> 最后更新：2026-05-11
 
 ---
 
 ## 概览
 
 - 主题：library
-- 素材总数：78
-- Wiki 页面总数：149
+- 素材总数：88
+- Wiki 页面总数：173
 
 ---
 
@@ -16,11 +16,11 @@
 
 > 人物、组织、概念、工具等（共 67 个）
 
-- [[AI-Agent]] · [[Hermes-Agent]] · [[Harness]] · [[Harness-Engineering]]
+- [[AI-Agent]] · [[Hermes-Agent]] · [[Harness]] · [[Harness-Engineering]] · [[Evolver-Engineering]]
 - [[Session]] · [[Sandbox]] · [[Skills]] · [[Vault-Proxy]]
 - [[MemOS]] · [[Memory-Store]] · [[OpenClaw]] · [[MCP]]
 - [[Pi]] · [[Qoder]] · [[Agent-Native]] · [[Agentic-CI-CD]] · [[Claude-Managed-Agents]]
-- [[Context-Engineering]] · [[NeoCloud]] · [[Spec驱动开发]] · [[VibeCoding]]
+- [[Context-Engineering]] · [[NeoCloud]] · [[Spec驱动开发]] · [[VibeCoding]] · [[Superblocks]] · [[Clark-AI]] · [[理解债]]
 - [[Wardley-Map]] · [[UX-设计]] · [[Agent隔离]] · [[IaaS]] · [[PaaS]]
 - [[S3对象存储]] · [[AI优先战略]] · [[AI生码]] · [[AI经济学]]
 - [[AI行业观察]] · [[AI辅助写作]] · [[Agent-Memory框架]]
@@ -34,7 +34,9 @@
 - [[凶凶熊]] · [[有价值但没位置]] · [[讲清问题]]
 - [[控制论]] · [[W.Ross-Ashby]]
 - [[Dijkstra]] · [[EWD-667]] · [[自然语言编程]] · [[形式化思维]]
-- [[界面宽度]] · [[形式符号]] · [[Structured-Output]] · [[Prompt-Engineering]]
+- [[界面宽度]] · [[形式符号]] · [[Structured-Output]] · [[Prompt-Engineering]] · [[Claude-Code]] · [[HTML-as-AI-Output]]
+- [[PMOBP Agent]] · [[Agentic项目管理]] · [[小红书PMO团队]] · [[长记忆四件套]]
+- [[项目注册平台]] · [[评测集]] · [[原子Agent]]
 
 ---
 
@@ -50,18 +52,41 @@
 ---
 
 ## 素材摘要
+## 2026-05-18 ingest
+
+- [[2026-05-18-用了两个月_Superpowers_+_gstack_之后，我自己造了一个_VibeFlow]] — VibeFlow自建经历+SDD/Harness/Spec五层模型
+- [[2026-05-17-三省六部幻觉_为什么"虚拟公司_式多Agent架构工程不行]] — 多Agent架构批判+三家大厂方案
+- [[2026-05-15-CI_CD_又被杀死了？]] — Continuous Compute替代传统CI/CD
+- [[2026-05-14-状态机视角下的_Agent_Runtime]] — 状态机四要素+核心控制流
+- [[2026-05-14-AI_Native_时代_——_研发组织何去何从]] — Execution Graph+组织变革
+- [[2026-05-12-QCon_北京_2026___把自动化测试当_AI_Coding_来做：小红书_GUI_Agent_实战回顾]] — GUI Agent实践
+- [[2026-05-12-AI_时代到底该怎么管一个工程团队]] — Fiona Fung工程管理实战
+
 
 > 每个消化过的素材都有一篇摘要
 
-|- 2026-05-10 [[sources/2026-05-10-用Agent评测思路管理AI_Coding_——_31万行代码AI重构的实践|用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]] - AI Coding、Harness Engineering、人人对齐、人机对齐、AI Rule、Pre-PR、技术债重构、美团
+- 2026-05-11 [[sources/2026-05-11-Graphify-让AI读懂你的代码，并且迭代优化，形成复利|Graphify：让AI读懂代码并迭代优化]] - Graphify、知识图谱、双通道提取、AST分析、Tree-sitter、Leiden算法、三级置信度
+- 2026-05-11 [[sources/2026-05-11-AI编程的本质就是机器学习|AI编程的本质就是机器学习]] - AI编程、机器学习、Coding-Agent、ML类比、Chollet、Keras
+- 2026-05-11 [[sources/2026-05-11-小红书PMO-Agentic探索之路|小红书PMO团队的Agentic探索之路]] - PMOBP Agent、Agentic项目管理、项目主数据、长记忆四件套、OpenClaw、PMO团队、AI项目管理
+- 2026-05-11 [[sources/2026-05-11-天猫新品营销技术团队AI编码实战指南（下）|天猫新品营销技术团队AI编码实战指南（下）]] - AI生码、AI编码、团队建设、小二端、C端、实用技巧
+- 2026-05-11 [[sources/2026-05-11-Codeindex_·_让大模型更好地理解你的代码|Codeindex：让大模型更好地理解你的代码]] - Codeindex、代码索引、语义检索、函数依赖图、Tree-sitter、KuzuDB、AI编码
+- 2026-05-11 [[sources/2026-05-11-天猫新品营销技术团队AI编码实战指南（上）|天猫新品营销技术团队AI编码实战指南（上）]] - AI生码、AI编码、Harness工程、视图分离、需求驱动型、工程主导型
+- 2026-05-11 [[sources/2026-05-11-关于近期裁员潮的思考｜AI让生产力爆炸，但也让平庸的公司战略原形毕露|关于近期裁员潮的思考：AI让生产力爆炸，但也让平庸的公司战略原形毕露]] - AI经济学、裁员潮、组织低效、研发团队管理、AI行业观察
+- 2026-05-11 [[sources/2026-05-11-技术债，为什么永远排不上？|技术债，为什么永远排不上？]] - 技术债、研发团队管理、技术治理、研发效能
+- 2026-05-11 [[sources/2026-05-11-观察了三年我把所有人用AI的水平分成了10个等级。|观察了三年，我把所有人用AI的水平分成了10个等级。]] - AI行业观察、AI使用分层、AI能力框架、Prompt Engineering、Context Engineering、Skill、Claude Code
+- 2026-05-11 [[sources/2026-05-11-Superblocks_2.0：治理_Vibe_乱象|Superblocks 2.0：治理 Vibe 乱象]] - Vibe Coding、企业级AI、Clark AI、三层工作流、理解债、影子IT
+- 2026-05-11 [[sources/2026-05-11-Claude-Code_Harness失控_规则遵循与上下文退化|Claude-Code Harness失控：规则遵循与上下文退化]] - Claude Code、Harness、规则遵循、上下文退化、Context Anxiety、200k Ghost
+- 2026-05-11 [[sources/2026-05-11-深度拆解：AI_智能体_Harness_的构造【译】|深度拆解：AI 智能体 Harness 的构造【译】]] - AI Agent、Harness Engineering、Context Engineering、Agent架构、Anthropic、OpenAI、LangGraph、CrewAI
+- 2026-05-10 [[sources/2026-05-10-用Agent评测思路管理AI_Coding_——_31万行代码AI重构的实践|用Agent评测思路管理AI Coding —— 31万行代码AI重构的实践]] - AI Coding、Harness Engineering、人人对齐、人机对齐、AI Rule、Pre-PR、技术债重构、美团
 |- 2026-05-10 [[sources/2026-05-10-资深软件工程师可以被"蒸馏"出来吗？|资深软件工程师可以被"蒸馏"出来吗？]] - AI Agent、资深工程师、Context Engineering、职场蒸馏、Harness Engineering、暗物质
 |- 2026-05-10 [[sources/2026-05-10-歪脖抠腚，低卧扑食|歪脖抠腚，低卧扑食]] - Vibe Coding、DevOps、Harness Engineering、Agentic CI/CD、平台工程
 |- 2026-05-10 [[sources/2026-05-10-味觉：Harness时代，最后的工程护城河|味觉：Harness时代，最后的工程护城河]] - Harness Engineering、味觉、品味负债、工程品味、约束设计
 |- 2026-05-10 [[sources/2026-05-10-Harness时代，谁在驾驭AI这匹野马？|Harness时代，谁在驾驭AI这匹野马？]] - Harness Engineering、Prompt Engineering、Context Engineering、Agent架构、约束设计
 |- 2026-05-10 [[sources/2026-05-10-Markdown_统治_AI_输出三年，终于要被自己人推翻：Agent_产出物进入_HTML_时代|Markdown 统治 AI 输出三年，终于要被自己人推翻：Agent 产出物进入 HTML 时代]] - Agent 产出物、HTML、Markdown、格式分层、Anthropic、Thariq、Claude Code、Artifacts
 |- 2026-05-10 [[sources/2026-05-09-品味负债：Harness狂奔后的隐形利息|品味负债：Harness狂奔后的隐形利息]] - Harness Engineering、品味负债、约束管理、评估体系、权限管理、知识治理
-|- 2026-05-10 [[sources/2026-05-10-Vibe_Coding时代，每个项目都需要意图文件|Vibe Coding 时代，每个项目都需要「意图文件」]] - Vibe Coding、意图文件、DESIGN.md、CLAUDE.md、Agent上下文工程、Harness Engineering
-|- 2026-05-09 [[sources/2026-05-09-不敢谈结果的技术负责人迟早会被边缘化|不敢谈结果的技术负责人，迟早会被边缘化]] - 技术人职业发展、研发团队管理、价值锚定、技术决策闭环、结果导向架构治理
+- 2026-05-10 [[sources/2026-05-10-Vibe_Coding时代，每个项目都需要意图文件|Vibe Coding 时代，每个项目都需要「意图文件」]] - Vibe Coding、意图文件、DESIGN.md、CLAUDE.md、Agent上下文工程、Harness Engineering
+- 2026-05-10 [[sources/2026-05-10-Anthropic工程师的HTML用法|sources/2026-05-10-Anthropic工程师的HTML用法]] - AI-Agent、Claude-Code、HTML、Prompt-Engineering、人机协作、HTML选择器
+- 2026-05-09 [[sources/2026-05-09-不敢谈结果的技术负责人迟早会被边缘化|不敢谈结果的技术负责人，迟早会被边缘化]] - 技术人职业发展、研发团队管理、价值锚定、技术决策闭环、结果导向架构治理
 
 |- 2026-05-08 [[sources/2026-05-07-自然语言不适合编程Dijkstra半个世纪前的判断今天依然成立|自然语言不适合编程——Dijkstra 半个世纪前的判断，今天依然成立]] - Dijkstra、EWD667、自然语言编程、形式化思维、界面宽度、Prompt Engineering、Harness Engineering、Vibe Coding、幻觉
 

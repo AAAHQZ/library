@@ -57,3 +57,7 @@ aliases: ["提示工程", "Prompt Engineering"]
 - [[Structured-Output]] — 输出端形式化
 - [[Harness-Engineering]] — 从 Prompt 到 Harness 的演进
 - [[Context-Engineering]] — 上下文工程，与 Prompt Engineering 紧密相关
+
+## 相关素材
+
+- [[2026-05-10-Anthropic工程师的HTML用法|sources/2026-05-10-Anthropic工程师的HTML用法]] — HTML 作为 AI 输出的 Use Case 提示词模板

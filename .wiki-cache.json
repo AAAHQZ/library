@@ -319,6 +319,116 @@
       "hash": "sha256:d23cb43cf899b67b0c1941471c97f8df873e9c3e2ca6f9a675b2c211d8809108",
       "ingested_at": "2026-05-10T11:37:56Z",
       "source_page": "wiki/sources/2026-05-10-用Agent评测思路管理AI_Coding_——_31万行代码AI重构的实践.md"
+    },
+    "raw/wechat/2026-05-10-Anthropic工程师的HTML用法，比那篇博客更值得看。.md": {
+      "hash": "sha256:f0e4c66b51589e942efeae11c835be7bb9213c04f9b3cb056dcb003c58fe6a85",
+      "ingested_at": "2026-05-10T15:58:12Z",
+      "source_page": "wiki/sources/2026-05-10-Anthropic工程师的HTML用法.md"
+    },
+    "raw/wechat/2026-05-11-技术预测：从智能体的_Harness（驾驭）_工程到_Evolver（进化）_工程.md": {
+      "hash": "sha256:38e91d6ca70f006f7b9322d7fd829a866a42ead1d0a6fa64da50754140f71776",
+      "ingested_at": "2026-05-10T16:24:37Z",
+      "source_page": "wiki/sources/2026-05-11-技术预测：从智能体的Harness驾驭工程到Evolver进化工程.md"
+    },
+    "raw/wechat/2026-05-11-深度拆解：AI_智能体_Harness_的构造【译】.md": {
+      "hash": "sha256:ac4c23091c876e9ac1e54622b8997f7baa80e9356bed01065ab83169174193e5",
+      "ingested_at": "2026-05-11T00:52:36Z",
+      "source_page": "wiki/sources/2026-05-11-深度拆解：AI_智能体_Harness_的构造【译】.md"
+    },
+    "raw/wechat/2026-05-11-观察了三年，我把所有人用AI的水平分成了10个等级。.md": {
+      "hash": "sha256:bab222eebb8e137c28fb14c2c1efa2c516925bf72a15553b0d81b2b2e1578918",
+      "ingested_at": "2026-05-11T03:57:39Z",
+      "source_page": "wiki/sources/2026-05-11-观察了三年我把所有人用AI的水平分成了10个等级。.md"
+    },
+    "raw/wechat/2026-05-11-关于近期裁员潮的思考｜AI让生产力爆炸，但也让平庸的公司战略原形毕露.md": {
+      "hash": "sha256:4f076e21462a3e35a151147318cc48b7947be76252888dbd60da8147e9d30de3",
+      "ingested_at": "2026-05-11T07:03:02Z",
+      "source_page": "wiki/sources/2026-05-11-关于近期裁员潮的思考｜AI让生产力爆炸，但也让平庸的公司战略原形毕露.md"
+    },
+    "raw/wechat/2026-05-11-Superblocks_2.0：治理_Vibe_乱象.md": {
+      "hash": "sha256:64660432c4380f39e17fc0fdc27a87e055091278cad2e061ab4dff48f162b560",
+      "ingested_at": "2026-05-11T07:04:23Z",
+      "source_page": "wiki/sources/2026-05-11-Superblocks_2.0：治理_Vibe_乱象.md"
+    },
+    "raw/wechat/2026-05-11-如何用大模型搞垮一个团队？.md": {
+      "hash": "sha256:c0a1271f6ea7dee66e3dd9d61a132862747f80879d534d1131ff8be1eb746349",
+      "ingested_at": "2026-05-11T07:05:03Z",
+      "source_page": "wiki/sources/2026-05-11-如何用大模型搞垮一个团队？.md"
+    },
+    "raw/wechat/2026-05-11-技术债，为什么永远排不上？.md": {
+      "hash": "sha256:2c2106a05da5438cf90e6ec1e4d0423391f50b6d21dfa7739ef78afa2e2dab31",
+      "ingested_at": "2026-05-11T07:07:32Z",
+      "source_page": "wiki/sources/2026-05-11-技术债，为什么永远排不上？.md"
+    },
+    "raw/wechat/2026-05-11-Anthropic_的_Harness_没管住_Claude_Code？不遵守_CLAUDE.md、烧光_credits.md": {
+      "hash": "sha256:c523ef4d6f5f1e326c559ac662b59952a0d5cd4dfb33d97acefa47c06971d3ed",
+      "ingested_at": "2026-05-11T11:16:17Z",
+      "source_page": "wiki/sources/2026-05-11-Claude-Code_Harness失控_规则遵循与上下文退化.md"
+    },
+    "raw/wechat/2026-05-11-打造AI时代项目管理新范式_-_小红书PMO团队的Agentic探索之路.md": {
+      "hash": "sha256:b6f4c950d9fa8a3578eecaa813ab3255b38e1016a255767039fcb1427cac6ad3",
+      "ingested_at": "2026-05-11T11:32:04Z",
+      "source_page": "wiki/sources/2026-05-11-打造AI时代项目管理新范式_-_小红书PMO团队的Agentic探索之路.md"
+    },
+    "raw/wechat/2026-05-11-天猫新品营销技术团队AI编码实战指南（上）.md": {
+      "hash": "sha256:0bbe1405f23442a8f2071a9a841c143d82037e646dfdf7dc6bccda39c47bd88f",
+      "ingested_at": "2026-05-11T11:32:23Z",
+      "source_page": "wiki/sources/2026-05-11-天猫新品营销技术团队AI编码实战指南（上）.md"
+    },
+    "raw/wechat/2026-05-11-天猫新品团队AI编码实战指南（下）.md": {
+      "hash": "sha256:52246a8255d2121df15433cb78434682e1c843114c9146d06958b76ac3fd45d4",
+      "ingested_at": "2026-05-11T11:32:24Z",
+      "source_page": "wiki/sources/2026-05-11-天猫新品营销技术团队AI编码实战指南（下）.md"
+    },
+    "raw/wechat/2026-05-11-Codeindex_·_让大模型更好地理解你的代码.md": {
+      "hash": "sha256:dd7806c3b6368d9ef2e2082e52c3ea888ed42afeec91f63cdcd8d9a60c86084d",
+      "ingested_at": "2026-05-11T11:32:25Z",
+      "source_page": "wiki/sources/2026-05-11-Codeindex_·_让大模型更好地理解你的代码.md"
+    },
+    "raw/wechat/2026-05-11-AI编程的本质就是机器学习.md": {
+      "hash": "sha256:21b3b73f0920642c67cb56f958606d05f6ed866c798994f3d0476850f8391266",
+      "ingested_at": "2026-05-11T12:18:22Z",
+      "source_page": "wiki/sources/2026-05-11-AI编程的本质就是机器学习.md"
+    },
+    "raw/wechat/2026-05-11-Graphify-让AI读懂你的代码，并且迭代优化，形成复利.md": {
+      "hash": "sha256:4d41841eaee92ea5ec6ca852a50aa30eb3943c56dc117d70896b64432275cce6",
+      "ingested_at": "2026-05-11T12:57:13Z",
+      "source_page": "wiki/sources/2026-05-11-Graphify-让AI读懂你的代码，并且迭代优化，形成复利.md"
+    },
+    "raw/wechat/2026-05-18-用了两个月_Superpowers_+_gstack_之后，我自己造了一个_VibeFlow.md": {
+      "hash": "sha256:ae9926140770f0958df8e79705ea33dab1cd73733d772e0c4c779ccb43103c07",
+      "ingested_at": "2026-05-18T00:45:43Z",
+      "source_page": "wiki/sources/2026-05-18-用了两个月_Superpowers_+_gstack_之后，我自己造了一个_VibeFlow.md"
+    },
+    "raw/wechat/2026-05-12-AI_时代到底该怎么管一个工程团队.md": {
+      "hash": "sha256:d4c5a78db351f5cfe9cef1c2c44198358c768c7532c8c0af8b88d9650d5863ea",
+      "ingested_at": "2026-05-18T00:45:43Z",
+      "source_page": "wiki/sources/2026-05-12-AI_时代到底该怎么管一个工程团队.md"
+    },
+    "raw/wechat/2026-05-12-QCon_北京_2026___把自动化测试当_AI_Coding_来做：小红书_GUI_Agent_实战回顾.md": {
+      "hash": "sha256:88ffd075599da1c2902801496c60d95bbfd87d682d1b4f7c850be55e5bc3fa3c",
+      "ingested_at": "2026-05-18T00:45:43Z",
+      "source_page": "wiki/sources/2026-05-12-QCon_北京_2026___把自动化测试当_AI_Coding_来做：小红书_GUI_Agent_实战回顾.md"
+    },
+    "raw/wechat/2026-05-14-AI_Native_时代_——_研发组织何去何从.md": {
+      "hash": "sha256:cb74a34d548f8ae7e9689df0f7961ed657beac8dd9fc62d1f3f780a23bcf15a9",
+      "ingested_at": "2026-05-18T00:45:43Z",
+      "source_page": "wiki/sources/2026-05-14-AI_Native_时代_——_研发组织何去何从.md"
+    },
+    "raw/wechat/2026-05-14-状态机视角下的_Agent_Runtime.md": {
+      "hash": "sha256:6f0074a195faf07ab5af913b5c00e3ea1160dfb4bca243b184a5656cd79d5414",
+      "ingested_at": "2026-05-18T00:45:43Z",
+      "source_page": "wiki/sources/2026-05-14-状态机视角下的_Agent_Runtime.md"
+    },
+    "raw/wechat/2026-05-15-CI_CD_又被杀死了？.md": {
+      "hash": "sha256:dc3c808dd74fca2898ace34ba03b5341cbe14294f3d486c6baeb4da42a0edd03",
+      "ingested_at": "2026-05-18T00:45:43Z",
+      "source_page": "wiki/sources/2026-05-15-CI_CD_又被杀死了？.md"
+    },
+    "raw/wechat/2026-05-17-三省六部幻觉_为什么“虚拟公司_式多Agent架构工程不行.md": {
+      "hash": "sha256:3be9931bf4ea9dc29800b3894156d4c86ece156e2541a1ab18035c34f08cafff",
+      "ingested_at": "2026-05-18T01:15:16Z",
+      "source_page": "wiki/sources/2026-05-17-三省六部幻觉_为什么“虚拟公司_式多Agent架构工程不行.md"
     }
   },
   "stats": {

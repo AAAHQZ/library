@@ -1,3 +1,63 @@
+## 2026-05-11 ingest | 小红书PMO团队的Agentic探索之路
+
+- 新增素材摘要：[[sources/2026-05-11-小红书PMO-Agentic探索之路]]
+- 新建实体：[[PMOBP Agent]] · [[小红书PMO团队]] · [[长记忆四件套]] · [[项目注册平台]] · [[评测集]] · [[原子Agent]] · [[Agentic项目管理]]
+- 更新主题页：[[AI-Agent工程实践]] · [[平台工程]] · [[研发效能管理]]
+- 更新 index.md、log.md 和缓存
+
+## 2026-05-11 ingest | 天猫新品团队AI编码实战指南（下）
+
+- 新增素材摘要：[[sources/2026-05-11-天猫新品营销技术团队AI编码实战指南（下）]]
+- 更新实体：[[AI生码]]（追加下篇相关内容）
+- 更新上篇关联：[[天猫新品营销技术团队AI编码实战指南（上）]]（双向链接）
+
+## 2026-05-11 ingest | Anthropic 的 Harness 没管住 Claude Code
+
+- 新增素材摘要：[[sources/2026-05-11-Claude-Code_Harness失控_规则遵循与上下文退化 Claude-Code Harness失控：规则遵循与上下文退化]]
+- 更新实体：[[Claude-Code]]（追加规则软约束失效、200k Ghost 上下文退化问题）
+- 更新主题页：[[AI-Agent工程实践]]
+- 更新 index.md、wiki/log.md 和缓存
+
+## 2026-05-11 ingest | 技术债，为什么永远排不上？
+
+- 素材摘要：[[sources/2026-05-11-技术债，为什么永远排不上？]]
+- 新建实体：无（文章与 [[研发团队管理]]、 [[VibeCoding]]、 [[品味负债]] 已有实体关联）
+
+## 2026-05-11 ingest | Superblocks 2.0：治理 Vibe 乱象
+
+- 素材摘要：[[sources/2026-05-11-Superblocks_2.0：治理_Vibe_乱象]]
+- 新建实体：[[Superblocks]] · [[Clark-AI]] · [[理解债]]
+- 更新实体：[[VibeCoding]]（追加企业治理视角章节）
+
+## 2026-05-11 ingest | 如何用大模型搞垮一个团队？
+
+- 素材摘要：[[sources/2026-05-11-如何用大模型搞垮一个团队？]]
+- 关联实体：[[研发团队管理]] · [[VibeCoding]] · [[品味负债]]
+
+## 2026-05-11 ingest | 关于近期裁员潮的思考：AI让生产力爆炸，但也让平庸的公司战略原形毕露
+
+- 素材摘要：[[sources/2026-05-11-关于近期裁员潮的思考｜AI让生产力爆炸，但也让平庸的公司战略原形毕露]]
+- 备注：文章偏AI行业观察方向，聚焦AI时代裁员本质是组织低效的暴露，而非AI替代人
+- 更新 index.md、log.md 和缓存
+
+## 2026-05-11 ingest | 观察了三年，我把所有人用AI的水平分成了10个等级。
+
+- 素材摘要：[[sources/2026-05-11-观察了三年我把所有人用AI的水平分成了10个等级。]]
+- 备注：文章偏AI行业观察方向，与核心Harness/Agent工程主题关联有限，作为行业背景素材纳入
+
+## 2026-05-11 ingest | Superblocks 2.0：治理 Vibe 乱象
+
+- 素材摘要：[[sources/2026-05-11-Superblocks_2.0：治理_Vibe_乱象]]
+- 新建实体：[[Superblocks]] · [[Clark-AI]] · [[理解债]]
+- 更新实体：[[VibeCoding]]（追加：企业治理视角、影子IT安全真空、Clark AI解药）
+- 更新 index.md、log.md 和缓存
+
+## 2026-05-11 ingest | 深度拆解：AI 智能体 Harness 的构造【译】
+
+- 素材摘要：[[sources/2026-05-11-深度拆解：AI_智能体_Harness_的构造【译】]]
+- 新建实体：[[ReAct]] · [[LangGraph]] · [[CrewAI]]
+- 更新实体：[[Context-Engineering]]（追加 Harness 12组件中的上下文管理详解）
+
 ## 2026-05-10 ingest | Vibe Coding 时代，每个项目都需要「意图文件」
 
 - 素材摘要：[[sources/2026-05-10-Vibe_Coding时代，每个项目都需要意图文件]]
@@ -301,3 +361,17 @@
 - [[Harness-Engineering]]（追加本文为完整实践案例引用）
 - [[AI-Agent]]（追加人的并发瓶颈、决策层级、脚手架>模型等工程原则）
 - index.md（统计数字、实体列表）
+
+## 2026-05-10 ingest | Anthropic工程师的HTML用法，比那篇博客更值得看。
+
+- 新增素材摘要：wiki/sources/2026-05-10-Anthropic工程师的HTML用法.md
+- 新增实体页：Claude-Code.md、HTML-as-AI-Output.md
+- 更新实体页：AI-Agent.md、Prompt-Engineering.md
+- 更新主题页：AI-Agent工程实践.md
+
+## 2026-05-11 ingest | 技术预测：从智能体的Harness驾驭工程到Evolver进化工程
+
+- 新增素材摘要：wiki/sources/2026-05-11-技术预测：从智能体的Harness驾驭工程到Evolver进化工程.md
+- 新增实体页：Evolver-Engineering.md
+- 更新实体页：Harness-Engineering.md
+- 更新主题页：AI-Agent工程实践.md

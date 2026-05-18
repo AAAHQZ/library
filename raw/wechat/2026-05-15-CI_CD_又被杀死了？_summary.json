@@ -1,0 +1,50 @@
+{
+  "title": "CI/CD 又被杀死了？",
+  "date": "2026-05-15",
+  "source": "AI Engineer 大会演讲整理",
+  "speakers": [
+    {
+      "name": "Madison Faulkner",
+      "role": "NEA 合伙人，主投数据基础设施和开发者工具"
+    },
+    {
+      "name": "Hugo Santos",
+      "role": "Namespace Labs CEO & 联合创始人，前 Google 内部开发平台 Boq 核心成员"
+    }
+  ],
+  "core_thesis": "传统 CI/CD 为人类节奏设计，扛不住 AI Agent 并发海量 PR 的规模，需要「Continuous Compute（持续计算）」作为接替者。",
+  "key_problems": [
+    "PR 规模暴增：Hugo 团队变更量已达人类 PR 口径的 4 倍，人类无法评审完每一个 PR",
+    "Merge Queue 失灵：并发合入窗口成为瓶颈，类似高性能数据库的串行化问题",
+    "CI 原子职责被冲击：回归校验、编译校验、冲突检测、授权检测全部围绕 PR 设计，PR 被 Agent 规模塞爆后整体卡住"
+  ],
+  "four_acceleration_directions": [
+    "Ingress Shaping（入口流量整形）+ 限流",
+    "Cache 层上升为编排层",
+    "Agentic Identity（给 Agent 类似服务账号的身份）",
+    "大规模 Retries（硬件和软件协同设计）"
+  ],
+  "new_architecture": {
+    "no_pr": true,
+    "workflow": "Intent + Plan → Agent Harness 循环 → Pre-Merge Queue → Git 明细",
+    "internal_validation": "极快的 build + 测试（目标：不再以分钟计）",
+    "external_validation": "由其他 Agent 评估（Security LLM、API Conformance LLM），不再有人参与",
+    "human_role": "看 Intent 和 Result 的对照，而非逐行审 diff"
+  },
+  "key_concepts": [
+    "Agent Harness：Agent 的运行框架（可用 Claude Code、Cursor、Factory、Amp 等）",
+    "Well-known Commit：Invariant 第一层保留，确保每次从已知良好状态起步",
+    "Pre-Merge Queue：并行变更的调和队列，保证 Serializability，一条接一条写回明细",
+    "Multiverse：Agent 同时在多个 Commit 上并行推进同一 Plan"
+  ],
+  "ci_position_change": "CI 职责被拆入循环，Invariant 持续强制，Coordination 和 Governance 上移到 Harness",
+  "practical_advice": [
+    "加 Runner 不是答案，根源是流水线为人类节奏设计",
+    "Agent 环境要有状态、持久化",
+    "Merge Queue 调度策略要能容忍并行变更",
+    "人类评审颗粒度上移：Intent/Result 对照取代逐行审 diff"
+  ],
+  "quote": "It's a crazy world and we need to be ready for it",
+  "source_url": "https://youtu.be/VktrqzQgytY",
+  "original_article_url": "https://mp.weixin.qq.com/s/52bCkS6VQMWuLCJ_6nmODA"
+}
