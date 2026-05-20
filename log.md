@@ -1,3 +1,14 @@
+## 2026-05-21 ingest | 别写 AI 战略了，95% 的自上而下 AI 项目都是在烧钱
+
+- 新增素材摘要：[[sources/2026-05-21-别写_AI_战略了，95%_的自上而下_AI_项目都是在烧钱]]
+- 更新实体：[[Claude-Code]]（补充诞生背景、Product Overhang、Design Philosophy）
+- 更新 index.md、log.md 和缓存
+
+## 2026-05-21 ingest | 为什么我在团队大力推进 Harness Engineering 的同时，却不认为它就是未来
+
+- 新增素材摘要：[[sources/2026-05-21-为什么我在团队大力推进_Harness_Engineering_的同时，却不认为它就是未来]]
+- 更新 index.md、log.md 和缓存
+
 ## 2026-05-11 ingest | 小红书PMO团队的Agentic探索之路
 
 - 新增素材摘要：[[sources/2026-05-11-小红书PMO-Agentic探索之路]]

@@ -7,8 +7,8 @@
 ## 概览
 
 - 主题：library
-- 素材总数：88
-- Wiki 页面总数：173
+- 素材总数：90
+- Wiki 页面总数：206
 
 ---
 
@@ -52,6 +52,11 @@
 ---
 
 ## 素材摘要
+## 2026-05-21 ingest
+
+- [[sources/2026-05-21-别写_AI_战略了，95%_的自上而下_AI_项目都是在烧钱|别写 AI 战略了，95% 的自上而下 AI 项目都是在烧钱]] — Product Overhang、Latent Demand、Bottom-up vs Top-down、Claude Code 诞生故事
+- [[sources/2026-05-21-为什么我在团队大力推进_Harness_Engineering_的同时，却不认为它就是未来|为什么我在团队大力推进 Harness Engineering 的同时，却不认为它就是未来]] — Harness Engineering 七要素、落地五层路径、价值与局限
+
 ## 2026-05-18 ingest
 
 - [[2026-05-18-用了两个月_Superpowers_+_gstack_之后，我自己造了一个_VibeFlow]] — VibeFlow自建经历+SDD/Harness/Spec五层模型

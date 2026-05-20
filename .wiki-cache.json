@@ -429,6 +429,16 @@
       "hash": "sha256:3be9931bf4ea9dc29800b3894156d4c86ece156e2541a1ab18035c34f08cafff",
       "ingested_at": "2026-05-18T01:15:16Z",
       "source_page": "wiki/sources/2026-05-17-三省六部幻觉_为什么“虚拟公司_式多Agent架构工程不行.md"
+    },
+    "raw/wechat/2026-05-21-别写_AI_战略了，95%_的自上而下_AI_项目都是在烧钱.md": {
+      "hash": "sha256:28ab5c4884bbd0f301c59c397e2a9727e48507e65d22bb0fd5142255c0ff6462",
+      "ingested_at": "2026-05-20T16:46:44Z",
+      "source_page": "wiki/sources/2026-05-21-别写_AI_战略了，95%_的自上而下_AI_项目都是在烧钱.md"
+    },
+    "raw/wechat/2026-05-21-为什么我在团队大力推进_Harness_Engineering_的同时，却不认为它就是未来.md": {
+      "hash": "sha256:9d0eb562802ac859480514579e31e1fbcb02cb4819482d4df5771662c88acc9a",
+      "ingested_at": "2026-05-20T16:46:44Z",
+      "source_page": "wiki/sources/2026-05-21-为什么我在团队大力推进_Harness_Engineering_的同时，却不认为它就是未来.md"
     }
   },
   "stats": {
