@@ -439,6 +439,16 @@
       "hash": "sha256:9d0eb562802ac859480514579e31e1fbcb02cb4819482d4df5771662c88acc9a",
       "ingested_at": "2026-05-20T16:46:44Z",
       "source_page": "wiki/sources/2026-05-21-为什么我在团队大力推进_Harness_Engineering_的同时，却不认为它就是未来.md"
+    },
+    "raw/wechat/2026-05-21-阿里AgenticQwen炸场！8B小模型干翻235B大模型，双数据飞轮让智能体成本降90%.md": {
+      "hash": "sha256:724112fe57b438c14cbba525f474ccd094d884eb73f24044fe7eed4502ac4372",
+      "ingested_at": "2026-05-20T17:13:36Z",
+      "source_page": "sources/2026-05-21-阿里AgenticQwen炸场！8B小模型干翻235B大模型，双数据飞轮让智能体成本降90%"
+    },
+    "raw/wechat/2026-05-21-网盘存量代码迁移实战：我们如何用三层架构管住_AI_的输出.md": {
+      "hash": "sha256:c1fd62715f2a4255480d5e44c0b6c4bd1104287ad26efd22abe9530604265cce",
+      "ingested_at": "2026-05-20T17:13:36Z",
+      "source_page": "sources/2026-05-21-网盘存量代码迁移实战：我们如何用三层架构管住_AI_的输出"
     }
   },
   "stats": {
