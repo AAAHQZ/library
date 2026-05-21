@@ -1,4 +1,9 @@
 
+## 2026-05-21
+
+- 2026-05-21 [[sources/2026-05-21-QQ音乐Harness_Engineering实践|QQ音乐Harness Engineering实践]] - Harness Engineering、大仓多服务、Multi-Agent治理、五阶段四门禁、三仓联动、Service-Matrix、Self-Refinement、上下文质量公式、L5工程治理层
+- 2026-05-21 Ingest (1 article)
+
 ## 2026-05-11
 
 - 2026-05-11 [[sources/2026-05-11-Claude-Code_Harness失控_规则遵循与上下文退化 Claude-Code Harness失控：规则遵循与上下文退化]] - Claude Code、Harness、规则遵循、上下文退化、Context Anxiety、200k Ghost

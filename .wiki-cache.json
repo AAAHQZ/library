@@ -449,9 +449,39 @@
       "hash": "sha256:c1fd62715f2a4255480d5e44c0b6c4bd1104287ad26efd22abe9530604265cce",
       "ingested_at": "2026-05-20T17:13:36Z",
       "source_page": "sources/2026-05-21-网盘存量代码迁移实战：我们如何用三层架构管住_AI_的输出"
+    },
+    "wiki/entities/Multi-Agent-Governance.md": {
+      "hash": "sha256:95448a6c555d45a626851ad5e91d1e8ed985f22521f7d4083cfc63ba64b5efe4",
+      "ingested_at": "2026-05-21T01:06:08Z",
+      "source_page": "library/wiki/sources/2026-05-21-QQ音乐Harness_Engineering实践.md"
+    },
+    "wiki/entities/Five-Stage-Gate-Workflow.md": {
+      "hash": "sha256:aa1dfbab5108212ee766d66b50bdf1cf11c6f06157a6225c4a76f5f5275af584",
+      "ingested_at": "2026-05-21T01:06:09Z",
+      "source_page": "library/wiki/sources/2026-05-21-QQ音乐Harness_Engineering实践.md"
+    },
+    "wiki/entities/Self-Refinement-Loop.md": {
+      "hash": "sha256:07cc4a1b254bfc035b8e7f6383aada2ce4b301b5cadc443aa49579d51c69ce5f",
+      "ingested_at": "2026-05-21T01:06:11Z",
+      "source_page": "library/wiki/sources/2026-05-21-QQ音乐Harness_Engineering实践.md"
+    },
+    "wiki/entities/Three-Warehouse-Linkage.md": {
+      "hash": "sha256:a7089cfb2cf9821b23aab275a0e32fdc6d80497a8ef8f9e2901e91e422c9cd1f",
+      "ingested_at": "2026-05-21T01:06:13Z",
+      "source_page": "library/wiki/sources/2026-05-21-QQ音乐Harness_Engineering实践.md"
+    },
+    "raw/wechat/2026-05-21-都是_AI_Coding，为什么_Java_体验差了一个量级？五条方法论帮你构建自己的_Harness_环境.md": {
+      "hash": "sha256:b6c1b01588666c2b60a3b3806db5895ddc32021aafaf7cbad99494b6c4f73ca4",
+      "ingested_at": "2026-05-21T01:07:38Z",
+      "source_page": "wiki/sources/2026-05-21-都是_AI_Coding，为什么_Java_体验差了一个量级？五条方法论帮你构建自己的_Harness_环境.md"
+    },
+    "raw/wechat/2026-05-21-QQ音乐Harness_Engineering实践.md": {
+      "hash": "sha256:0b575cfd381747ebe7cf46a2f3c4e6fd5284f77ff51e9a971885fbb23d490c6c",
+      "ingested_at": "2026-05-21T01:07:38Z",
+      "source_page": "wiki/sources/2026-05-21-QQ音乐Harness_Engineering实践.md"
     }
   },
   "stats": {
-    "total_sources": 56
+    "total_sources": 57
   }
 }

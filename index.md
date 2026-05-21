@@ -18,6 +18,7 @@
 
 - [[AI-Agent]] · [[Hermes-Agent]] · [[Harness]] · [[Harness-Engineering]] · [[Evolver-Engineering]]
 - [[Session]] · [[Sandbox]] · [[Skills]] · [[Vault-Proxy]]
+- [[Java-Harness-Local-Setup]] · [[StorageAdapter]] · [[LocalCommandExecutor]] · [[H2-Database]] · [[Dependency-Inversion-Principle]]
 - [[MemOS]] · [[Memory-Store]] · [[OpenClaw]] · [[MCP]]
 - [[Pi]] · [[Qoder]] · [[Agent-Native]] · [[Agentic-CI-CD]] · [[Claude-Managed-Agents]]
 - [[Context-Engineering]] · [[NeoCloud]] · [[Spec驱动开发]] · [[VibeCoding]] · [[Superblocks]] · [[Clark-AI]] · [[理解债]]
@@ -54,6 +55,7 @@
 ## 素材摘要
 ## 2026-05-21 ingest
 
+- [[sources/2026-05-21-都是_AI_Coding，为什么_Java_体验差了一个量级？五条方法论帮你构建自己的_Harness_环境|都是 AI Coding，为什么 Java 体验差了一个量级？五条方法论帮你构建自己的 Harness 环境]] — Java微服务AI Coding困境、本地Harness改造、依赖倒置、五条方法论
 - [[sources/2026-05-21-别写_AI_战略了，95%_的自上而下_AI_项目都是在烧钱|别写 AI 战略了，95% 的自上而下 AI 项目都是在烧钱]] — Product Overhang、Latent Demand、Bottom-up vs Top-down、Claude Code 诞生故事
 - [[sources/2026-05-21-为什么我在团队大力推进_Harness_Engineering_的同时，却不认为它就是未来|为什么我在团队大力推进 Harness Engineering 的同时，却不认为它就是未来]] — Harness Engineering 七要素、落地五层路径、价值与局限
 

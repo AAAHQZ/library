@@ -1,3 +1,9 @@
+## 2026-05-21 ingest | 都是 AI Coding，为什么 Java 体验差了一个量级？五条方法论帮你构建自己的 Harness 环境
+
+- 新增素材摘要：[[sources/2026-05-21-都是_AI_Coding，为什么_Java_体验差了一个量级？五条方法论帮你构建自己的_Harness_环境]]
+- 新增实体：[[Java-Harness-Local-Setup]] · [[StorageAdapter]] · [[LocalCommandExecutor]] · [[H2-Database]] · [[Dependency-Inversion-Principle]]
+- 更新 index.md、log.md
+
 ## 2026-05-21 ingest | 阿里AgenticQwen炸场！8B小模型干翻235B大模型，双数据飞轮让智能体成本降90%
 
 - 新增素材摘要：[[sources/2026-05-21-阿里AgenticQwen炸场！8B小模型干翻235B大模型，双数据飞轮让智能体成本降90%]]

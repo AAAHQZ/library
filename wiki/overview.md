@@ -44,6 +44,8 @@
 
 ## 最近更新
 
+- **2026-05-21**：新增 1 篇素材摘要
+  - [[sources/2026-05-21-QQ音乐Harness_Engineering实践|QQ音乐Harness Engineering实践]] - Harness Engineering、大仓多服务、Multi-Agent治理、五阶段四门禁
 - **2026-05-11**：新增 2 篇素材摘要
   - [[sources/2026-05-11-Codeindex_·_让大模型更好地理解你的代码|Codeindex：让大模型更好地理解你的代码]] - Codeindex、代码索引、语义检索
   - [[sources/2026-05-11-天猫新品营销技术团队AI编码实战指南（上）|天猫新品营销技术团队AI编码实战指南（上）]] - AI编码实战指南
